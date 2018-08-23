@@ -31,7 +31,7 @@ class HappySchool extends Component {
     static navigationOptions = ({ navigation, screenProps }) => ({
         title: '安心就學',
         headerRight: <Icon containerStyle={{ marginRight: 5 }} name='home' onPress={() => navigation.dispatch(
-            NavigationActions.reset({index: 0, actions: [NavigationActions.navigate({routeName: 'Homepage'})]})
+            NavigationActions.back({index: 0, actions: [NavigationActions.navigate({routeName: 'Homepage'})]})
         )} />
     });
 

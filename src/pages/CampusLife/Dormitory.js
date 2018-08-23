@@ -8,7 +8,7 @@ class Dormitory extends Component {
     static navigationOptions = ({ navigation, screenProps }) => ({
         title: '住宿',
         headerRight: <Icon containerStyle={{ marginRight: 5 }} name='home' onPress={() => navigation.dispatch(
-            NavigationActions.reset({index: 0, actions: [NavigationActions.navigate({routeName: 'Homepage'})]})
+            NavigationActions.back({index: 0, actions: [NavigationActions.navigate({routeName: 'Homepage'})]})
         )} />
     });
 

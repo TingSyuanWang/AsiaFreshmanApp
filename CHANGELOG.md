@@ -7,6 +7,7 @@
 ## Bug (1 change)
 
 - React-Navigation 版本過高問題
+- React-Navigation reset 改為 back
 
 ## 2.0.3 (2018-08-21)
 
