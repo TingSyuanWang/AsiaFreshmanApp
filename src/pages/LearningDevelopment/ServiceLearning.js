@@ -9,7 +9,7 @@ class ServiceLearning extends Component {
     static navigationOptions = ({ navigation, screenProps }) => ({
         title: '服務與學習',
         headerRight: <Icon containerStyle={{ marginRight: 5 }} name='home' onPress={() => navigation.dispatch(
-            NavigationActions.back({index: 0, actions: [NavigationActions.navigate({routeName: 'Homepage'})]})
+            NavigationActions.navigate({routeName: 'Homepage', actions: [NavigationActions.navigate({routeName: 'Homepage'})]})
         )} />
     });
 

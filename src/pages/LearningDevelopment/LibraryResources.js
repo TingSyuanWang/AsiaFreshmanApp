@@ -8,7 +8,7 @@ class LibraryResources extends Component {
     static navigationOptions = ({ navigation, screenProps }) => ({
         title: '圖書資源',
         headerRight: <Icon containerStyle={{ marginRight: 5 }} name='home' onPress={() => navigation.dispatch(
-            NavigationActions.back({index: 0, actions: [NavigationActions.navigate({routeName: 'Homepage'})]})
+            NavigationActions.navigate({routeName: 'Homepage', actions: [NavigationActions.navigate({routeName: 'Homepage'})]})
         )} />
     });
 
