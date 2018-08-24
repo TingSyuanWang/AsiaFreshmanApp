@@ -1,3 +1,9 @@
+## 2.2.0 (2018-08-24)
+
+## Enhancement (1 change)
+
+- 成功上架到 App Store
+
 ## 2.1.0 (2018-08-23)
 
 ## Enhancement (1 change)
