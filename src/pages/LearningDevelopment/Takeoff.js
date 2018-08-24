@@ -26,7 +26,7 @@ class Takeoff extends Component {
                     <Text style={ ItemTitleH2 }>5.缺曠資料如有誤記情事，需請任課老師修正缺曠資料（確實到班上課者）；受理時間至學期課程結束，逾期不受理。</Text>
                     <Text style={ ItemTitleH2RedLeft }>一般假別：凡請假一週內之事假、病假及生理假皆需申請學生「一般」假別，並一律由該科目任課老師核批。</Text>
                     <Text style={ ItemTitleH2RedLeft }>特殊假別：請假天數超過一週以上，且假別為非一般事假、病假（生理假）及喪假且檢附證明者，皆需申請學生「重大傷病及特殊事假」假別，並由導師及生輔組核批。</Text>
-                    <Image style={ ImageStyle2 } resizeMode={'stretch'} source={require('../../img/2018-08-21_093513.jpg')} />
+                    <Image style={ ImageStyle2 } resizeMode={'stretch'} source={require('../../img/takeoff.jpg')} />
                 </View>
             </ScrollView>
         );
