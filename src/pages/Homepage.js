@@ -60,7 +60,7 @@ class Homepage extends Component {
                         image={require('../img/MentalHealth.jpg')}
                         titleStyle={{fontSize: 20}}>
                         <Text style={{marginBottom: 10, lineHeight: 20}}>
-                            健康檢查、諮商輔導 ＆ 資源教室服務
+                            健康檢查、諮商輔導 ＆ 資源教室服務、愛滋防治宣導
                         </Text>
                         <Button
                             rightIcon={{name: 'forward'}}

@@ -29,6 +29,7 @@ import CampusLaw from '../pages/FriendlyCampus/CampusLaw';
 import StudentsAppeals from '../pages/FriendlyCampus/StudentsAppeals';
 
 import PhysicalHealth from '../pages/MainItem/PhysicalHealth';
+import AIDS from '../pages/PhysicalHealth/AIDS';
 import Checkup from '../pages/PhysicalHealth/Checkup';
 import ConsultService from '../pages/PhysicalHealth/ConsultService';
 
@@ -69,6 +70,7 @@ export const Freshman = StackNavigator({
     StudentsAppeals: { screen: StudentsAppeals},
     PhysicalHealth: { screen: PhysicalHealth},
     Checkup: { screen: Checkup},
+    AIDS: { screen: AIDS},
     ConsultService: { screen: ConsultService},
     CampusLife: { screen: CampusLife },
     Dormitory: { screen: Dormitory },
