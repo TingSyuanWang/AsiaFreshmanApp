@@ -33,12 +33,8 @@ const list = [
         title: '生涯發展與就業輔導',
         icon: 'trending-up',
         page: 'CareerDevelopment'
-    },
-    {
-        title: '學生實務學習與輔導',
-        icon: 'trending-up',
-        page: 'CareerDevelopment'
     }
+
 ];
 
 class LearningDevelopment extends Component {
