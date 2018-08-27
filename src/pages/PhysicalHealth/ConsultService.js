@@ -8,7 +8,7 @@ class ConsultService extends Component {
     static navigationOptions = ({ navigation, screenProps }) => ({
         title: '諮商輔導 & 資源教室服務',
         headerRight: <Icon containerStyle={{ marginRight: 5 }} name='home' onPress={() => navigation.dispatch(
-            NavigationActions.reset({index: 0, actions: [NavigationActions.navigate({routeName: 'Homepage'})]})
+            NavigationActions.navigate({routeName: 'Homepage', actions: [NavigationActions.navigate({routeName: 'Homepage'})]})
         )} />
     });
 

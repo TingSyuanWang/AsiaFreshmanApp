@@ -1,8 +1,26 @@
+## 2.2.1 (2018.08-24)
+
+### Bug (2 changes)
+
+- 修正首頁 ScrollView 很慢 - 壓縮圖片
+- 修正圖片名稱
+
+## 2.2.0 (2018-08-24)
+
+## Enhancement (1 change)
+
+- 成功上架到 App Store
+
 ## 2.1.0 (2018-08-23)
 
 ## Enhancement (1 change)
 
-- 新增啟動畫面
+- 新增啟動畫面與圖標
+
+## Bug (1 change)
+
+- React-Navigation 版本過高問題
+- React-Navigation reset 改為 back
 
 ## 2.0.3 (2018-08-21)
 
