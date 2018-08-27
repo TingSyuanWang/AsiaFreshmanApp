@@ -46,7 +46,7 @@ class Homepage extends Component {
                         image={require('../img/about-asia.jpg')}
                         titleStyle={{fontSize: 20}}>
                         <Text style={{marginBottom: 10, lineHeight: 20}}>
-                            兵役緩徵、校園安全、性別平等教育、校園法律宣導、學生申訴
+                            兵役緩徵、校園安全、性別平等教育、校園法律宣導、學生申訴、交通安全、公車路線
                         </Text>
                         <Button
                             rightIcon={{name: 'forward'}}
@@ -74,7 +74,7 @@ class Homepage extends Component {
                         image={require('../img/CampusLife.jpg')}
                         titleStyle={{fontSize: 20}}>
                         <Text style={{marginBottom: 10, lineHeight: 20}}>
-                            住宿、社團介紹、總務須知
+                            住宿、社團介紹、總務須知、校園導覽圖
                         </Text>
                         <Button
                             rightIcon={{name: 'forward'}}

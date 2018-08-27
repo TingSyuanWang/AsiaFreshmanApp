@@ -16,7 +16,7 @@ const list = [
     },
     {
         title: '愛滋防治宣導',
-        icon: 'domain',
+        icon: 'local-hospital',
         page: 'AIDS'
     },
 ];

@@ -25,6 +25,8 @@ import FriendlyCampus from '../pages/MainItem/FriendlyCampus';
 import Military from '../pages/FriendlyCampus/Military';
 import CampusSecurity from '../pages/FriendlyCampus/CampusSecurity';
 import GenderEquality from '../pages/FriendlyCampus/GenderEquality';
+import TrafficSafety from '../pages/FriendlyCampus/TrafficSafety';
+import BusRoute from '../pages/FriendlyCampus/BusRoute';
 import CampusLaw from '../pages/FriendlyCampus/CampusLaw';
 import StudentsAppeals from '../pages/FriendlyCampus/StudentsAppeals';
 
@@ -35,8 +37,11 @@ import ConsultService from '../pages/PhysicalHealth/ConsultService';
 
 import CampusLife from '../pages/MainItem/CampusLife';
 import Dormitory from '../pages/CampusLife/Dormitory';
+import CampusMap from '../pages/CampusLife/CampusMap';
+
 import GroupIntroduction from '../pages/CampusLife/GroupIntroduction';
 import GeneralInformation from '../pages/CampusLife/GeneralInformation';
+
 
 import HappySchool from '../pages/MainItem/HappySchool';
 import BailoutCare from '../pages/HappySchool/BailoutCare';
@@ -65,6 +70,8 @@ export const Freshman = StackNavigator({
     FriendlyCampus: { screen: FriendlyCampus },
     Military: { screen: Military },
     CampusSecurity: { screen: CampusSecurity},
+    BusRoute: { screen: BusRoute},
+    TrafficSafety: { screen: TrafficSafety},
     GenderEquality: { screen: GenderEquality},
     CampusLaw: { screen: CampusLaw},
     StudentsAppeals: { screen: StudentsAppeals},
@@ -74,6 +81,7 @@ export const Freshman = StackNavigator({
     ConsultService: { screen: ConsultService},
     CampusLife: { screen: CampusLife },
     Dormitory: { screen: Dormitory },
+    CampusMap: { screen: CampusMap },
     GroupIntroduction: { screen: GroupIntroduction },
     GeneralInformation: { screen: GeneralInformation },
     HappySchool: { screen: HappySchool },
