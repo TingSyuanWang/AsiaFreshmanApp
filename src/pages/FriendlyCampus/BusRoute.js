@@ -14,14 +14,14 @@ class BusRoute extends Component {
     });
 
     render () {
-        const { ViewContainer, ViewSubContainerNoBorder, ItemTitleH2, ItemTitleH2RedLeft, ImageStyle3 } = customStyles;
+        const { ViewContainer, ViewSubContainerNoBorder, ItemTitleH2, ItemTitleH2RedLeft, ImageStyle3, ImageStyle7, ImageStyle8, ImageStyle9 } = customStyles;
 
         return (
             <ScrollView style={ ViewContainer }>
                 <View style={ ViewSubContainerNoBorder }>
-                    <Image style={ ImageStyle3 } resizeMode={'stretch'} source={require('../../img/Bus.jpg')} />
-                    <Image style={ ImageStyle3 } resizeMode={'stretch'} source={require('../../img/Bus1.gif')} />
-                    <Image style={ ImageStyle3 } resizeMode={'stretch'} source={require('../../img/Bus2.jpg')} />
+                    <Image style={ ImageStyle7 } resizeMode={'stretch'} source={require('../../img/Bus.jpg')} />
+                    <Image style={ ImageStyle8 } resizeMode={'stretch'} source={require('../../img/Bus1.gif')} />
+                    <Image style={ ImageStyle9 } resizeMode={'stretch'} source={require('../../img/Bus2.jpg')} />
                 </View>
             </ScrollView>
         );

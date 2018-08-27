@@ -14,12 +14,12 @@ class CampusMap extends Component {
     });
 
     render () {
-        const { ViewContainer, ViewSubContainerNoBorder, ItemTitleH2, ItemTitleH2RedLeft, ImageStyle3 } = customStyles;
+        const { ViewContainer, ViewSubContainerNoBorder, ItemTitleH2, ItemTitleH2RedLeft, ImageStyle6 } = customStyles;
 
         return (
             <ScrollView style={ ViewContainer }>
                 <View style={ ViewSubContainerNoBorder }>
-                    <Image style={ ImageStyle3 } resizeMode={'stretch'} source={require('../../img/CampusTour.jpg')} />
+                    <Image style={ ImageStyle6 } resizeMode={'stretch'} source={require('../../img/CampusTour.jpg')} />
                 </View>
             </ScrollView>
         );
