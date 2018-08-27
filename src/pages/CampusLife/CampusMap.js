@@ -19,7 +19,7 @@ class CampusMap extends Component {
         return (
             <ScrollView style={ ViewContainer }>
                 <View style={ ViewSubContainerNoBorder }>
-                    <Image style={ ImageStyle3 } resizeMode={'stretch'} source={require('../../img/CampusTour.jpg.png')} />
+                    <Image style={ ImageStyle3 } resizeMode={'stretch'} source={require('../../img/CampusTour.jpg')} />
                 </View>
             </ScrollView>
         );
