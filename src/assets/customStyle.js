@@ -69,6 +69,12 @@ export const customStyles = StyleSheet.create({
         marginBottom: 6,
         lineHeight: 30
     },
+    ItemTitleH4: {
+        fontSize: 16,
+        marginTop: 4,
+        marginBottom: 4,
+        lineHeight: 30
+    },
     ItemTitleH3Red: {
         fontSize: 18,
         marginTop: 6,
