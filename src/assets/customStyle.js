@@ -127,16 +127,16 @@ export const customStyles = StyleSheet.create({
         height: 320
     },
     ImageStyle7: {
-        width: 350,
-        height: 430
+        width: 356,
+        height: 320
     },
     ImageStyle8: {
-        width: 350,
-        height: 430
+        width: 356,
+        height: 320
     },
     ImageStyle9: {
-        width: 350,
-        height: 430
+        width: 356,
+        height: 320
     },
     Signature: {
         flexDirection: 'row',
