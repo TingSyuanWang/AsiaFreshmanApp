@@ -32,7 +32,8 @@ class Checkup extends Component {
                     <Text style={ ItemTitleH3 }>位置：管理大樓1樓（M111室）</Text>
                     <Text style={ ItemTitleH3 }>電話：04-23323456 # 3250、3251、3253</Text>
                     <Text style={ ItemTitleH3 }>網站：</Text>
-                    <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='健康中心' onPress={ ()=>{ Linking.openURL('http://shs.asia.edu.tw/')}} />
+                    <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='健康中心' onPress={ ()=>{ Linking.openURL('http://healthyau.asia.edu.tw')}} />
+                    <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='衛生保健' onPress={ ()=>{ Linking.openURL('http://shs.asia.edu.tw/bin/home.php')}} />
                 </View>
             </ScrollView>
         );

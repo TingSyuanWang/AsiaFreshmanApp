@@ -139,8 +139,8 @@ class GroupIntroduction extends Component {
                 </View>
                 <View style={ ViewSubContainerNoBorder }>
                     <Text style={ ItemTitleH2 }>校內各社團粉絲專頁請至課服組網站搜尋</Text>
-                    <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='課外組網站' onPress={ ()=>{ Linking.openURL('http://ecas.asia.edu.tw/')}} />
-                    <Text style={ ItemTitleH2 }>步驟：亞洲大學課外活動組 => 社團專區 => 所有社團資訊 => 挑選自己喜歡的社團 => 完成</Text>
+                    <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='課服組網站' onPress={ ()=>{ Linking.openURL('http://ecas.asia.edu.tw/bin/home.php')}} />
+                    <Text style={ ItemTitleH2 }>步驟：亞洲大學課服組 => 社團專區 => 所有社團資訊 => 挑選自己喜歡的社團 => 完成</Text>
                 </View>
             </ScrollView>
         );
