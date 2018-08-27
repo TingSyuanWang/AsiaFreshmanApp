@@ -19,7 +19,7 @@ class LibraryResources extends Component {
             <ScrollView style={ ViewContainer }>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH1 }>一、開放時間</Text>
-                    <Text style={ ItemTitleH2 }>圖書館平時於週一至週五08:00～22:00；週六日09:30～17:30開放進館閱覽，國定及校定假日不開放，寒暑假開館時間為週一至週五08:00～17:10。</Text>
+                    <Text style={ ItemTitleH2 }>圖書館平時於週一至週五 08 : 00 ～ 22 : 00 ；週六日 09 : 30 ～ 17 : 30 開放進館閱覽，國定及校定假日不開放，寒暑假開館時間為週一至週五 08 : 00 ～ 17 : 10 。</Text>
                 </View>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH1 }>二、借還書服務</Text>
@@ -36,16 +36,15 @@ class LibraryResources extends Component {
                     <Text style={ ItemTitleH1 }>三、推廣活動</Text>
 
                     <Text style={ ItemTitleH2 }>(一)	新鮮人的第一堂課－如何善用圖書館</Text>
-                    <Text style={ ItemTitleH3 }>參加對象為各學制新生及轉學生，協助亞洲新鮮人了解圖書館環境、各項資源及服務。</Text>
-
+                    <Text style={ ItemTitleH3 }>參加對象為各學制新生及轉學生，協助亞洲新鮮人了解圖書館環境、各項資源及服務。
+                    </Text>
                     <Text style={ ItemTitleH2 }>(二)	搜索達人練武功－電子資源利用講習及團體利用指導</Text>
                     <Text style={ ItemTitleH3 }>定期舉辦或配合教師課程需要帶班預約，指導學生如何使用館藏資料、資源蒐集方法及檢索技巧，有機會獲得通識認證或隨課小獎品。</Text>
-
                     <Text style={ ItemTitleH2 }>(三)	圖書館週及書香校園週</Text>
                     <Text style={ ItemTitleH3 }>每學年上學期12月舉辦圖書館週、下學期4月舉辦書香校園週活動，藉由活潑的遊戲方式，增進學生對圖書館各項資源及服務的了解，還有機會抽獎獲得精美獎品。</Text>
 
                     <Text style={ ItemTitleH2 }>(四)	熊愛讀冊－漂書計畫</Text>
-                    <Text style={ ItemTitleH3 }>以熊愛讀冊「Library is everywhere」的概念，於霧峰地區和亞大校園設置漂書站，推廣閱讀活動。亞大校園漂書站包含：亞洲驛站、管理學院7-11廣場、資訊大樓學涯走廊、圖書館圓形廣場、感恩學苑(一宿)、惜福學苑(二宿)及築夢學苑(三宿)。</Text>
+                    <Text style={ ItemTitleH3 }>以熊愛讀冊「Library is everywhere」的概念，於霧峰地區和亞大校園設置漂書站，推廣閱讀活動。亞大校園漂書站包含：亞洲驛站、管理學院、7-11廣場、資訊大樓學涯走廊、圖書館圓形廣場、感恩學苑(一宿)、惜福學苑(二宿)及築夢學苑(三宿)。</Text>
                 </View>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH1 }>四、圖書期刊推薦</Text>
@@ -62,7 +61,7 @@ class LibraryResources extends Component {
                     <Text style={ ItemTitleH1 }>五、特色空間</Text>
                     <Text style={ ItemTitleH2 }>(一)	討論室：共3間，每間提供投影設備一組，3人以上可借用，借用期限為3小時，若無人預約得續借一次。</Text>
                     <Text style={ ItemTitleH2 }>(二)	研究小間：共6間，借用期限為1日，若無人預約得續借一次。</Text>
-                    <Text style={ ItemTitleH2 }>(三)	咖啡閱讀區：提供師生良好的授課、討論及互動空間，並配合推廣閱讀、借書享有喝咖啡折價活動，內設性別平等教育專區、藝文采風坊、通識中心設立之悅讀驛站中文書寫中心。</Text>
+                    <Text style={ ItemTitleH2 }>(三)	咖啡閱讀區：提供師生良好的授課、討論及互動空間，並配合推廣閱讀。</Text>
                     <Image style={{ width: 320, height: 238 }} resizeMode={'stretch'} source={require('../../img/LearningDevelopment/LibraryResources_figure1.png')} />
                     <Text style={ ItemTitleH3 }>討論室內部實景</Text>
                     <Image style={{ width: 320, height: 242 }} resizeMode={'stretch'} source={require('../../img/LearningDevelopment/LibraryResources_figure2.png')} />

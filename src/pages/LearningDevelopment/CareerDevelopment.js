@@ -44,6 +44,8 @@ class CareerDevelopment extends Component {
                     <Text style={ ItemTitleH1 }>四、	職涯發展諮詢與輔導【預約】(含職業性向、履歷健診)：</Text>
                     <Text style={ ItemTitleH2 }>為了讓同學提早了解職場生態並適性發展，學涯中心敦聘職涯輔導專長之諮商師，為同學提供完善諮詢服務。</Text>
                     <Text style={ ItemTitleH3 }>預約電話：04-23323456轉3235</Text>
+                    <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='粉絲專頁' onPress={ ()=>{ Linking.openURL('https://m.facebook.com/%E5%AD%B8%E6%B6%AF%E4%B8%AD%E5%BF%83%E7%B2%89%E7%B5%B2%E9%A0%81-122291928558/')}} />
+                    <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='FB' onPress={ ()=>{ Linking.openURL('https://m.facebook.com/asiacareer')}} />
                 </View>
             </ScrollView>
         );
