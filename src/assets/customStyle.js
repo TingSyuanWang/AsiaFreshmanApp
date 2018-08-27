@@ -111,7 +111,11 @@ export const customStyles = StyleSheet.create({
         flex: 1,
         height: 50,
         maxWidth: 100
-},
+    },
+    ImageStyle5: {
+        width: 350,
+        height: 430
+    },
     Signature: {
         flexDirection: 'row',
         justifyContent: 'flex-start',
