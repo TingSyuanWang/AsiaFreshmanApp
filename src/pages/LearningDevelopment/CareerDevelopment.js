@@ -47,6 +47,7 @@ class CareerDevelopment extends Component {
                     <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='粉絲專頁' onPress={ ()=>{ Linking.openURL('https://m.facebook.com/%E5%AD%B8%E6%B6%AF%E4%B8%AD%E5%BF%83%E7%B2%89%E7%B5%B2%E9%A0%81-122291928558/')}} />
                     <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='FB' onPress={ ()=>{ Linking.openURL('https://m.facebook.com/asiacareer')}} />
                 </View>
+                <Text style={ ItemTitleH1 }>學生實務學習與輔導</Text>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH1 }>一、競取專業證照，備足就業競爭力：</Text>
                     <Text style={ ItemTitleH2 }>(一)	考選部舉辦之國家公務人員考試。</Text>
