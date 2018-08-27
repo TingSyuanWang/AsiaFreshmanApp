@@ -12,6 +12,15 @@ export const customStyles = StyleSheet.create({
         paddingHorizontal: 10,
         marginBottom: 30
     },
+    ViewSubContainer2: {
+        borderColor: '#000',
+        borderWidth: 1,
+        paddingHorizontal: 10,
+    },
+    ViewSubContainer3: {
+        marginTop: 10,
+        marginBottom: 30,
+    },
     ViewSubContainerNoMargin: {
         borderColor: '#000',
         borderWidth: 1,
@@ -72,12 +81,6 @@ export const customStyles = StyleSheet.create({
     ItemTitleH4: {
         fontSize: 16,
         marginTop: 4,
-        marginBottom: 4,
-        lineHeight: 30
-    },
-    ItemTitleH5: {
-        fontSize: 16,
-        marginTop: -10,
         marginBottom: 4,
         lineHeight: 30
     },

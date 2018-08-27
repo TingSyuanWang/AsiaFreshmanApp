@@ -14,7 +14,7 @@ class AIDS extends Component {
     });
 
     render () {
-        const { ViewContainer, ViewSubContainer, MainContent, ItemTitleH1, ItemTitleH2, ItemTitleH2Red, ItemTitleH3, DividerShort, DividerLong, ItemTitleH4, ItemTitleH5 } = customStyles;
+        const { ViewContainer, ViewSubContainer, ViewSubContainer2, ViewSubContainer3, MainContent, ItemTitleH1, ItemTitleH2, ItemTitleH2Red, ItemTitleH3, DividerShort, DividerLong, ItemTitleH4,  } = customStyles;
 
         return (
             <ScrollView style={ ViewContainer }>
@@ -35,12 +35,14 @@ class AIDS extends Component {
                     <Text style={ ItemTitleH2 }>Q. 哪些人需要檢驗愛滋？</Text>
                     <Text style={ ItemTitleH2 }>A. 曾經有不安全的行為(無套性行為、共用針具、稀釋液)建議至少要檢驗1次，若持續有上述情形者，建議增加篩檢頻率，至少每年1次。</Text>
                     </View>
-                    <View style={ ViewSubContainer }>
+                    <View style={ ViewSubContainer2 }>
                     <Text style={ ItemTitleH2 }>Q. 我有愛滋方面的疑惑可以找誰協助？</Text>
                     <Text style={ ItemTitleH2 }>A. 您可以撥免付費愛滋防治專線0800-888995、台中市各衛生所電話詢問或逕上衛生局的網站</Text>
                     <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='衛生局' onPress={ ()=>{ Linking.openURL('http://www.health.taichung.gov.tw')}} />
                     </View>
-                    <Text style={ ItemTitleH5 }>資料來源：衛福部疾管署、臺中市政府衛生局</Text>
+                    <View  style={ ViewSubContainer3 }>
+                        <Text>資料來源：衛福部疾管署、臺中市政府衛生局</Text>
+                    </View>
             </ScrollView>
         );
     }
