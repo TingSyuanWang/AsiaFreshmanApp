@@ -31,12 +31,12 @@ const list = [
     },
     {
         title: '交通安全',
-        icon: 'face',
+        icon: 'traffic',
         page: 'TrafficSafety'
     },
     {
         title: '公車路線',
-        icon: 'face',
+        icon: 'directions-bus',
         page: 'BusRoute'
     }
 ];

@@ -21,7 +21,7 @@ const list = [
     },
     {
         title: '校園導覽圖',
-        icon: 'info',
+        icon: 'map',
         page: 'CampusMap'
     }
 ];
