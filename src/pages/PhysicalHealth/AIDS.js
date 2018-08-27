@@ -39,8 +39,9 @@ class AIDS extends Component {
                     <Text style={ ItemTitleH2 }>Q. 我有愛滋方面的疑惑可以找誰協助？</Text>
                     <Text style={ ItemTitleH2 }>A. 您可以撥免付費愛滋防治專線0800-888995、台中市各衛生所電話詢問或逕上衛生局的網站</Text>
                     <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='衛生局' onPress={ ()=>{ Linking.openURL('http://www.health.taichung.gov.tw')}} />
-                    <Text style={ ItemTitleH3 }>資料來源：衛福部疾管署、臺中市政府衛生局</Text>
                     </View>
+                    <Text style={ ItemTitleH3 }>資料來源：衛福部疾管署、臺中市政府衛生局</Text>
+
             </ScrollView>
         );
     }
