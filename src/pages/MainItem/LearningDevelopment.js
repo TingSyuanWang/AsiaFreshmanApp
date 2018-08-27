@@ -36,7 +36,7 @@ const list = [
     },
     {
         title: '學生實務學習與輔導',
-        icon: 'trending-up',
+        icon: 'work',
         page: 'StudentPractice'
     }
 
