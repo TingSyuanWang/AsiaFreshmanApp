@@ -19,7 +19,7 @@ class BusRoute extends Component {
         return (
             <ScrollView style={ ViewContainer }>
                 <View style={ ViewSubContainerNoBorder }>
-                    <Image style={ ImageStyle3 } resizeMode={'stretch'} source={require('../../img/Bus.png')} />
+                    <Image style={ ImageStyle3 } resizeMode={'stretch'} source={require('../../img/Bus.jpg')} />
                     <Image style={ ImageStyle3 } resizeMode={'stretch'} source={require('../../img/Bus1.gif')} />
                     <Image style={ ImageStyle3 } resizeMode={'stretch'} source={require('../../img/Bus2.jpg')} />
                 </View>
