@@ -32,7 +32,6 @@ class TrafficSafety extends Component {
                     <Text style={ ItemTitleH3 }>(九)霧峰區中正路林森路(立院中辦)。</Text>
                     <Text style={ ItemTitleH3 }>(十)霧峰區民生路吉峰東路。</Text>
                     <Text style={ ItemTitleH3 }>(十一)霧峰區柳豐路。</Text>
-                    <Text style={ ItemTitleH2 }>Q. 預防愛滋病的方法？</Text>
                     <Text style={ ItemTitleH1 }>2.肇事原因如下：</Text>
                     <Text style={ ItemTitleH3 }>(一)未依規定讓車。</Text>
                     <Text style={ ItemTitleH3 }>(二)未注意車前狀態。</Text>
