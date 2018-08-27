@@ -32,7 +32,7 @@ class Homepage extends Component {
                         image={require('../img/LearningDevelopment.jpeg')}
                         titleStyle={{fontSize: 20}}>
                         <Text style={{marginBottom: 10, lineHeight: 20}}>
-                            選課、學生請假、服務與學習、電子郵件 ＆ 軟體資源、圖書資源、學習暨生涯發展
+                            選課、學生請假、服務與學習、電子郵件 ＆ 軟體資源、圖書資源、生涯發展與就業輔導、學生實務學習與輔導
                         </Text>
                         <Button
                             rightIcon={{name: 'forward'}}

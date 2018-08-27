@@ -19,6 +19,7 @@ import ServiceLearning from '../pages/LearningDevelopment/ServiceLearning';
 import SoftwareResources from '../pages/LearningDevelopment/SoftwareResources';
 import LibraryResources from '../pages/LearningDevelopment/LibraryResources';
 import CareerDevelopment from '../pages/LearningDevelopment/CareerDevelopment';
+import StudentPractice from '../pages/LearningDevelopment/StudentPractice';
 
 import FriendlyCampus from '../pages/MainItem/FriendlyCampus';
 import Military from '../pages/FriendlyCampus/Military';
@@ -59,6 +60,7 @@ export const Freshman = StackNavigator({
     SoftwareResources: { screen: SoftwareResources },
     LibraryResources: { screen: LibraryResources },
     CareerDevelopment: { screen: CareerDevelopment },
+    StudentPractice: { screen: StudentPractice },
     FriendlyCampus: { screen: FriendlyCampus },
     Military: { screen: Military },
     CampusSecurity: { screen: CampusSecurity},
