@@ -239,6 +239,15 @@ class ServiceLearning extends Component {
                         <Text style={ ItemTitleH3 }>(三)訓練期間遲到早退、開課後10分鐘未進教室或出現睡覺、課堂中使用電子產品、吃東西屢勸不聽……等行為視同未完訓，請同學務必配合。</Text>
                         <Text style={ ItemTitleH3 }>(四)如於大學前已取得志願服務紀錄冊請自行申請抵免。大一新生請務必於上學期修畢講授(一)，下學期修畢講授(二)。</Text>
                     </View>
+
+
+
+                <Text style={ ItemTitleH1 }>十一、校內一般服務學生實作論壇—帳號申請說明</Text>
+                    <View style={ ViewSubContainer }>
+                        <Text style={ ItemTitleH2 }>第一步驟：進入畫面</Text>
+                        <Text style={ ItemTitleH3 }>利用課服組網站https://sls.asia.edu.tw/ 拉至最下方連結至論壇。或者直接打論壇網址http://ausls.666forum.com/forum。</Text>
+                        <Image style={ ImageStyle12 } resizeMode={'stretch'} source={require('../../img/ServiceLearning2.png')} />
+                    </View>
             </ScrollView>
         );
     }
