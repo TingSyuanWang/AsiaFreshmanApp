@@ -264,9 +264,77 @@ class ServiceLearning extends Component {
                         <Text style={ ItemTitleH2 }>第六步驟：要登入時，不要打錯原本註冊的帳號與密碼喔!!</Text>
                         <Image style={ ImageStyle18 } resizeMode={'stretch'} source={require('../../img/ServiceLearning8.png')} />
                         <Text style={ ItemTitleH4 }>註：若對以上操作步驟有不清楚者，歡迎洽所屬小隊長或至課服組辦公室(A118)洽詢。</Text>
-                        <Image style={ ImageStyle19 } resizeMode={'stretch'} source={require('../../img/ServiceLearning9.png')} />
+
+                        一分鐘清潔
                         <Image style={ ImageStyle20 } resizeMode={'stretch'} source={require('../../img/ServiceLearning10.png')} />
 
+                    </View>
+                <Text style={ ItemTitleH1 }>十二、申訴流程</Text>
+                    <View style={ ViewSubContainer }>
+                        <Image style={ ImageStyle19 } resizeMode={'stretch'} source={require('../../img/ServiceLearning9.png')} />
+                    </View>
+                <Text style={ ItemTitleH1 }>十三、葵花寶典--清掃技巧</Text>
+                    <View style={ ViewSubContainer }>
+                        <Text style={ ItemTitleH2 }>樓梯部份</Text>
+                        <Text style={ ItemTitleH3 }>掃地：</Text>
+                        <Text style={ ItemTitleH3 }>1.雙手拿掃把</Text>
+                        <Text style={ ItemTitleH3 }>2.由上樓往下樓掃</Text>
+                        <Text style={ ItemTitleH3 }>3.掃至最後一階時，將垃圾掃至畚斗內</Text>
+                        <Text style={ ItemTitleH3 }>4.將畚斗內的垃圾倒至垃圾桶內</Text>
+                        <Text style={ ItemTitleH3 }>5.完成</Text>
+                        <Text style={ ItemTitleH2 }>拖地：</Text>
+                        <Text style={ ItemTitleH2 }>分為兩種情境</Text>
+                        <Text style={ ItemTitleH2 }>一、晴天時</Text>
+                        <Text style={ ItemTitleH2 }>1.先將拖把沾溼</Text>
+                        <Text style={ ItemTitleH2 }>2.再將拖把擰乾</Text>
+                        <Text style={ ItemTitleH2 }>3.由上樓往下樓拖</Text>
+                        <Text style={ ItemTitleH2 }>4.將拖把洗乾淨晾乾即可（請勿在廁所洗手台清洗拖把）</Text>
+                        <Text style={ ItemTitleH2 }>二、雨天時</Text>
+                        <Text style={ ItemTitleH2 }>1.低樓層部分：用乾拖把將溼樓梯拖乾即可</Text>
+                        <Text style={ ItemTitleH2 }>2.高樓層部分：用溼抹布或有點濕又不會太濕的拖把將地面上的飲料漬擦掉即可</Text>
+                        <Text style={ ItemTitleH2 }>欄杆：</Text>
+                        <Text style={ ItemTitleH2 }>1.將抹布沾濕擰乾</Text>
+                        <Text style={ ItemTitleH2 }>2.欄杆分為上、中、下層，由上層依序向下擦拭（上層→中層→下層）</Text>
+                        <Text style={ ItemTitleH2 }>3.由樓上擦到樓下，直到最後一層</Text>
+                        <Text style={ ItemTitleH2 }>4.將抹布洗乾淨晾乾即可</Text>
+                        <Text style={ ItemTitleH2 }>PS：拖把、抹布使用完畢後務必要清洗乾淨再晾乾</Text>
+
+                        <Text style={ ItemTitleH2 }>教室部份</Text>
+                        <Text style={ ItemTitleH2 }>黑板：</Text>
+                        <Text style={ ItemTitleH2 }>1.拿起板擦並將板擦用板擦機吸乾淨</Text>
+                        <Text style={ ItemTitleH2 }>2.擦黑板時，要由上往下擦，不可來回擦拭，以免越擦越髒</Text>
+                        <Text style={ ItemTitleH2 }>3.若板擦髒了，必須將板擦打乾淨再繼續擦</Text>
+                        <Text style={ ItemTitleH2 }>4.板溝需用抹布同一方向擦乾淨</Text>
+                        <Text style={ ItemTitleH2 }>地板：</Text>
+                        <Text style={ ItemTitleH2 }>1.先將桌椅下的垃圾撿乾淨</Text>
+                        <Text style={ ItemTitleH2 }>2.再用掃把將地板掃乾淨</Text>
+                        <Text style={ ItemTitleH2 }>3.最後用拖把將地板拖乾淨（一週最少拖2次），或用微溼的拖把將污點拖乾淨即可（請勿在廁所洗手台清洗拖把）</Text>
+                        <Text style={ ItemTitleH2 }>桌椅：</Text>
+                        <Text style={ ItemTitleH2 }>1.先將抹布沾濕在擰乾</Text>
+                        <Text style={ ItemTitleH2 }>2.再用抹布擦拭桌面以及椅子</Text>
+                        <Text style={ ItemTitleH2 }>3.最後再將桌椅以第一排為基準依序向後對齊</Text>
+                        <Text style={ ItemTitleH2 }>離開前：別忘了隨手關燈、關冷氣，以節約能源。</Text>
+                        <Text style={ ItemTitleH2 }>PS：拖把、抹布使用完畢後務必要清洗乾淨擰乾再晾乾</Text>
+
+                        <Text style={ ItemTitleH2 }>走廊部份</Text>
+                        <Text style={ ItemTitleH2 }>欄杆：</Text>
+                        <Text style={ ItemTitleH2 }>1.先將抹布沾濕擰乾</Text>
+                        <Text style={ ItemTitleH2 }>2.欄杆分為上、中、下層，由上層依序向下擦拭（上層→中層→下層）</Text>
+                        <Text style={ ItemTitleH2 }>3.最後將左右兩旁擦乾淨收尾即可</Text>
+                        <Text style={ ItemTitleH2 }>掃地：</Text>
+                        <Text style={ ItemTitleH2 }>1.先將地板上的灰塵及垃圾掃起來</Text>
+                        <Text style={ ItemTitleH2 }>2.再將垃圾拿到垃圾桶做好垃圾分類丟掉</Text>
+                        <Text style={ ItemTitleH2 }>拖地：用濕拖把或濕抹布將汙點擦乾淨即可（請勿在廁所洗手台清洗拖把）</Text>
+                        <Text style={ ItemTitleH2 }>PS：拖把、抹布使用完畢後務必要清洗乾淨擰乾再晾乾</Text>
+
+                        <Text style={ ItemTitleH2 }>外掃部份</Text>
+                        <Text style={ ItemTitleH2 }>工具：</Text>
+                        <Text style={ ItemTitleH2 }>1.夾子</Text>
+                        <Text style={ ItemTitleH2 }>2.小垃圾桶、水桶、竹掃把、竹耙子或畚箕    </Text>
+                        <Text style={ ItemTitleH2 }>使用重點：用畢後，務必清空桶內垃圾及落葉。</Text>
+                        <Text style={ ItemTitleH2 }>1.大、小型垃圾及落葉收集區 </Text>
+                        <Text style={ ItemTitleH2 }>2.菸蒂及狗大便</Text>
+                        <Text style={ ItemTitleH2 }>3.落葉及樹枝</Text>
                     </View>
             </ScrollView>
         );
