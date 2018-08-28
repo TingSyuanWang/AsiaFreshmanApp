@@ -14,7 +14,7 @@ class ServiceLearning extends Component {
     });
 
     render () {
-        const { ViewContainer, ViewSubContainer, MainContent, ItemTitleH1, ItemTitleH2, ItemTitleH2Red, ItemTitleH3, DividerShort, DividerLong, ImageStyle10, ItemTitleH4, ImageStyle11, ItemTitleH5} = customStyles;
+        const { ViewContainer, ViewSubContainer, MainContent, ItemTitleH1, ItemTitleH2, ItemTitleH3, DividerShort, DividerLong, ImageStyle10, ItemTitleH4, ImageStyle11} = customStyles;
 
         return (
             <ScrollView style={ ViewContainer }>
@@ -215,6 +215,27 @@ class ServiceLearning extends Component {
                         <Text style={ ItemTitleH3 }>3.依據服務學習施行要點規定，每學期需實作滿30小時，未達時數者，該學期成績不予通過並需重修。</Text>
                         <Text style={ ItemTitleH2 }>三、參加多元服務學習學生凡有不法行為或以他人名義替代服務者，經查證屬實，該生該學期該科不予通過並需重修，且依本校學生獎懲辦法嚴處。</Text>
                         <Text style={ ItemTitleH2 }>四、	依本要點折抵時數之學生，其所填送之各項資料，經查明有虛偽不實者，將依相關規定提出適當懲處並重修本課程。</Text>
+                    </View>
+                <Text style={ ItemTitleH1 }>十、「服務與學習」-講授課修課說明</Text>
+                    <View style={ ViewSubContainer }>
+                        <Text style={ ItemTitleH2 }>一、講授課上課時間：由服學組另行安排上課時間及地點並於開學前公告周知，同學可在加退選期間選擇時段修課。</Text>
+                        <Text style={ ItemTitleH2 }>二、講授課之規劃以協助同學取得｢志願服務紀錄冊｣為主要目的，已取得志願服務紀錄冊的同學請自行辦理抵免。</Text>
+                        <Text style={ ItemTitleH2 }>三、｢服務與學習(一)-講授課｣授課內容：法定志願服務基礎訓練，6堂課，共12小時；｢服務與學習(二)-講授課｣授課內容：法定志願服務特殊訓練，6堂課，共12小時。</Text>
+                        <Text style={ ItemTitleH2 }>四、抵免說明：</Text>
+                        <Text style={ ItemTitleH3 }>(一)申請資格：凡已領取校內、外志願服務運用單位核發之｢志願服務基礎訓練｣、｢志願服務特殊訓練｣結業證書或｢志願服務紀錄冊｣者。</Text>
+                        <Text style={ ItemTitleH3 }>(二)申請時間：依教務處公告之抵免作業及時程配合辦理。</Text>
+                        <Text style={ ItemTitleH3 }>(三)申請文件：</Text>
+                        <Text style={ ItemTitleH3 }>1.講授一：志願服務基礎訓練結業證書影本。</Text>
+                        <Text style={ ItemTitleH3 }>(1)104學年度起本校講授(一)為現場授課3小時及e化教學(臺北e大)，如果僅持臺北e大學習證明抵免講授(一)恕不同意抵免</Text>
+                        <Text style={ ItemTitleH3 }>(2)持臺北e大學習證明者需同時檢具志願服務特殊訓練結業證書(需滿12小時)或志願服務紀錄冊影本，同時申請講授(一)(二)抵免，始可受理申請。</Text>
+                        <Text style={ ItemTitleH3 }>2.講授二：志願服務特殊訓練結業證書(需滿12小時)或志願服務紀錄冊影本。</Text>
+
+                        <Text style={ ItemTitleH3 }>(四) 	受理地點：依教務處學分抵免規定辦理，採線上申請，證明資料則寄送至各系所。</Text>
+                        <Text style={ ItemTitleH2 }>五、注意事項：</Text>
+                        <Text style={ ItemTitleH3 }>(一)選課後請確實出席、簽到並勿遲到早退。</Text>
+                        <Text style={ ItemTitleH3 }>(二)請於選課前確認個人時間，無故未到者取消資格並不得再報名由本校辦理之其他梯次訓練。</Text>
+                        <Text style={ ItemTitleH3 }>(三)訓練期間遲到早退、開課後10分鐘未進教室或出現睡覺、課堂中使用電子產品、吃東西屢勸不聽……等行為視同未完訓，請同學務必配合。</Text>
+                        <Text style={ ItemTitleH3 }>(四)如於大學前已取得志願服務紀錄冊請自行申請抵免。大一新生請務必於上學期修畢講授(一)，下學期修畢講授(二)。</Text>
                     </View>
             </ScrollView>
         );
