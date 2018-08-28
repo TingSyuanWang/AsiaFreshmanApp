@@ -157,7 +157,7 @@ class ServiceLearning extends Component {
                 <Text style={ ItemTitleH1 }>八、「服務與學習」-實作課修課規定</Text>
                     <View style={ ViewSubContainer }>
                         <Text style={ ItemTitleH2 }>一、實施對象：</Text>
-                        <Text style={ ItemTitleH2 }>係規劃本校大學日間部同學(含一年級新生、未修習之轉學(系)生、復學生)共同必修「服務與學習(一)、(二)」課程為一學年(上、下學期，各零學分，必修課程)。</Text>
+                        <Text style={ ItemTitleH3 }>係規劃本校大學日間部同學(含一年級新生、未修習之轉學(系)生、復學生)共同必修「服務與學習(一)、(二)」課程為一學年(上、下學期，各零學分，必修課程)。</Text>
                         <Text style={ ItemTitleH2 }>二、「實作課」課程內容：</Text>
                         <Text style={ ItemTitleH3}>(一) 實施方式：</Text>
                         <Text style={ ItemTitleH3 }>以安排學生參與校園內服務性工作為主，旨在引導學生身體力行服務工作，亦開放申請多元服務。</Text>
@@ -191,6 +191,31 @@ class ServiceLearning extends Component {
                         <Text style={ ItemTitleH3 }>1.若曾於他校已修畢類似課程且成績及格持有原學校證明者，即可提出抵免申請。</Text>
                         <Text style={ ItemTitleH3 }>2.身心障礙之特殊學生，無法從事實作者，得經專簽奉核後，始可抵免「實作課」課程。</Text>
                         <Text style={ ItemTitleH4 }>～～上述事項如有未盡事宜則另行修訂～～</Text>
+                    </View>
+                <Text style={ ItemTitleH1 }>九、「校外多元服務課程實施方式」說明</Text>
+                    <View style={ ViewSubContainer }>
+                        <Text style={ ItemTitleH2 }>一、以為提供服務學習實作生多元服務學習機會。</Text>
+                        <Text style={ ItemTitleH2 }>係規劃本校大學日間部同學(含一年級新生、未修習之轉學(系)生、復學生)共同必修「服務與學習(一)、(二)」課程為一學年(上、下學期，各零學分，必修課程)。</Text>
+                        <Text style={ ItemTitleH2 }>二、多元服務學習申請規定：</Text>
+                        <Text style={ ItemTitleH3 }>(一)申請資格：該學期修課學生</Text>
+                        <Text style={ ItemTitleH3 }>(二)服務單位：校外政府合法立案之機關、機構、法人等可提供志工服務之單位，且需經服務學習組審核通過始可。</Text>
+                        <Text style={ ItemTitleH3 }>(三)	施行時程：</Text>
+                        <Text style={ ItemTitleH3 }>1.辦理申請時程：當學期開學前1個月至開學後第1週止。</Text>
+                        <Text style={ ItemTitleH3 }>2.公告審核結果：開學後第3週。(公佈於服務學習組網站或公布欄)</Text>
+                        <Text style={ ItemTitleH3 }>3.施行時程：自當學期第3週起至第15週止。</Text>
+
+                        <Text style={ ItemTitleH3 }>(四)	時數規定：需於規定之施行時程內服務滿30小時，且每週服務時數最多4小時為限。</Text>
+                        <Text style={ ItemTitleH3 }>(五)	申請文件：需檢附亞洲大學多元服務學習申請書。(請至學生事務處服務學習組網站-表單下載區下載)</Text>
+                        <Text style={ ItemTitleH3 }>(六)	認證規定</Text>
+
+                        <Text style={ ItemTitleH3 }>1.服務結束後一週內，需繳回認證資料通過複核後，始可登錄成績：</Text>
+                        <Text style={ ItemTitleH3 }>(1)多元服務學習時數證明單。</Text>
+                        <Text style={ ItemTitleH3 }>(2)多元服務學習反思心得報告(含服務照片至少4張)。</Text>
+                        <Text style={ ItemTitleH3 }>(3)多元服務學習問卷調查表。</Text>
+                        <Text style={ ItemTitleH3 }>2.本多元服務學習時數不得與各系所規定之實習時數重覆認定。</Text>
+                        <Text style={ ItemTitleH3 }>3.依據服務學習施行要點規定，每學期需實作滿30小時，未達時數者，該學期成績不予通過並需重修。</Text>
+                        <Text style={ ItemTitleH2 }>三、參加多元服務學習學生凡有不法行為或以他人名義替代服務者，經查證屬實，該生該學期該科不予通過並需重修，且依本校學生獎懲辦法嚴處。</Text>
+                        <Text style={ ItemTitleH2 }>四、	依本要點折抵時數之學生，其所填送之各項資料，經查明有虛偽不實者，將依相關規定提出適當懲處並重修本課程。</Text>
                     </View>
             </ScrollView>
         );
