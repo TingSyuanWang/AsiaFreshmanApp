@@ -239,7 +239,31 @@ class ServiceLearning extends Component {
                         <Text style={ ItemTitleH3 }>(三)訓練期間遲到早退、開課後10分鐘未進教室或出現睡覺、課堂中使用電子產品、吃東西屢勸不聽……等行為視同未完訓，請同學務必配合。</Text>
                         <Text style={ ItemTitleH3 }>(四)如於大學前已取得志願服務紀錄冊請自行申請抵免。大一新生請務必於上學期修畢講授(一)，下學期修畢講授(二)。</Text>
                     </View>
-
+                <Text style={ ItemTitleH1 }>十一、校內一般服務學生實作論壇—帳號申請說明</Text>
+                    <View style={ ViewSubContainer }>
+                        <Text style={ ItemTitleH2 }>第一步驟：進入畫面</Text>
+                        <Text style={ ItemTitleH3 }>利用課服組網站https://sls.asia.edu.tw/ 拉至最下方連結至論壇。或者直接打論壇網址http://ausls.666forum.com/forum。</Text>
+                        <Image style={ ImageStyle12 } resizeMode={'stretch'} source={require('../../img/ServiceLearning2.png')} />
+                        <Image style={ ImageStyle13 } resizeMode={'stretch'} source={require('../../img/ServiceLearning3.png')} />
+                        <Text style={ ItemTitleH2 }>第二步驟：看完條文一定要點選”我同意以上條文”喔</Text>
+                        <Image style={ ImageStyle14 } resizeMode={'stretch'} source={require('../../img/ServiceLearning4.png')} />
+                        <Text style={ ItemTitleH2 }>第三步驟：資料設定步驟如下〜</Text>
+                        <Text style={ ItemTitleH3 }>1.會員姓名(即是登入帳號)：請務必輸入學號。</Text>
+                        <Text style={ ItemTitleH3 }>2.電子郵件信箱：請輸入使用常用信箱。</Text>
+                        <Text style={ ItemTitleH3 }>3.登入密碼：請輸入以六個數字以上或英文。</Text>
+                        <Text style={ ItemTitleH3 }>4.使用者姓名：請務必輸入一律輸入本名。</Text>
+                        <Text style={ ItemTitleH3 }>5.最後請再次確認資料無誤後，記得按「送出」鈕喔!</Text>
+                        <Image style={ ImageStyle15 } resizeMode={'stretch'} source={require('../../img/ServiceLearning5.png')} />
+                        <Text style={ ItemTitleH2 }>第四步驟：記得打上「密碼」與「認證代碼」，不要打錯囉!</Text>
+                        <Image style={ ImageStyle16 } resizeMode={'stretch'} source={require('../../img/ServiceLearning6.png')} />
+                        <Text style={ ItemTitleH2 }>第五步驟：註冊完畢最後完成畫面!! </Text>
+                        <Image style={ ImageStyle17 } resizeMode={'stretch'} source={require('../../img/ServiceLearning7.png')} />
+                        <Text style={ ItemTitleH2 }>第六步驟：要登入時，不要打錯原本註冊的帳號與密碼喔!!</Text>
+                        <Image style={ ImageStyle18 } resizeMode={'stretch'} source={require('../../img/ServiceLearning8.png')} />
+                        <Text style={ ItemTitleH4 }>註：若對以上操作步驟有不清楚者，歡迎洽所屬小隊長或至課服組辦公室(A118)洽詢。</Text>
+                        <Image style={ ImageStyle19 } resizeMode={'stretch'} source={require('../../img/ServiceLearning9.png')} />
+                        <Image style={ ImageStyle20 } resizeMode={'stretch'} source={require('../../img/ServiceLearning10.png')} />
+            　　　　</View>
             </ScrollView>
         );
     }
