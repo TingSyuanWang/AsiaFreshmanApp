@@ -218,9 +218,11 @@ class ServiceLearning extends Component {
                     </View>
                 <Text style={ ItemTitleH1 }>十、「服務與學習」-講授課修課說明</Text>
                     <View style={ ViewSubContainer }>
-                        <Text style={ ItemTitleH2 }>一、講授課上課時間：由服學組另行安排上課時間及地點並於開學前公告周知，同學可在加退選期間選擇時段修課。</Text>
+                        <Text style={ ItemTitleH2 }>一、講授課上課時間：</Text>
+                        <Text style={ ItemTitleH3 }>由服學組另行安排上課時間及地點並於開學前公告周知，同學可在加退選期間選擇時段修課。</Text>
                         <Text style={ ItemTitleH2 }>二、講授課之規劃以協助同學取得｢志願服務紀錄冊｣為主要目的，已取得志願服務紀錄冊的同學請自行辦理抵免。</Text>
-                        <Text style={ ItemTitleH2 }>三、｢服務與學習(一)-講授課｣授課內容：法定志願服務基礎訓練，6堂課，共12小時；｢服務與學習(二)-講授課｣授課內容：法定志願服務特殊訓練，6堂課，共12小時。</Text>
+                        <Text style={ ItemTitleH2 }>三、｢服務與學習(一)-講授課｣授課內容：</Text>
+                        <Text style={ ItemTitleH3 }>法定志願服務基礎訓練，6堂課，共12小時；｢服務與學習(二)-講授課｣授課內容：法定志願服務特殊訓練，6堂課，共12小時。</Text>
                         <Text style={ ItemTitleH2 }>四、抵免說明：</Text>
                         <Text style={ ItemTitleH3 }>(一)申請資格：凡已領取校內、外志願服務運用單位核發之｢志願服務基礎訓練｣、｢志願服務特殊訓練｣結業證書或｢志願服務紀錄冊｣者。</Text>
                         <Text style={ ItemTitleH3 }>(二)申請時間：依教務處公告之抵免作業及時程配合辦理。</Text>
