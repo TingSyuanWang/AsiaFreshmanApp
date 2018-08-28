@@ -191,7 +191,7 @@ export const customStyles = StyleSheet.create({
     },
     ImageStyle19: {
         width: 332,
-        height: 220
+        height: 500
     },
     ImageStyle20: {
         width: 332,
