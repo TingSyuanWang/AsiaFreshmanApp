@@ -195,7 +195,6 @@ class ServiceLearning extends Component {
                 <Text style={ ItemTitleH1 }>九、「校外多元服務課程實施方式」說明</Text>
                     <View style={ ViewSubContainer }>
                         <Text style={ ItemTitleH2 }>一、以為提供服務學習實作生多元服務學習機會。</Text>
-                        <Text style={ ItemTitleH2 }>係規劃本校大學日間部同學(含一年級新生、未修習之轉學(系)生、復學生)共同必修「服務與學習(一)、(二)」課程為一學年(上、下學期，各零學分，必修課程)。</Text>
                         <Text style={ ItemTitleH2 }>二、多元服務學習申請規定：</Text>
                         <Text style={ ItemTitleH3 }>(一)申請資格：該學期修課學生</Text>
                         <Text style={ ItemTitleH3 }>(二)服務單位：校外政府合法立案之機關、機構、法人等可提供志工服務之單位，且需經服務學習組審核通過始可。</Text>
