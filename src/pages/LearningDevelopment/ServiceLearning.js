@@ -14,7 +14,7 @@ class ServiceLearning extends Component {
     });
 
     render () {
-        const { ViewContainer, ViewSubContainer, MainContent, ItemTitleH1, ItemTitleH2, ItemTitleH2Red, ItemTitleH3, DividerShort, DividerLong, ImageStyle10 } = customStyles;
+        const { ViewContainer, ViewSubContainer, MainContent, ItemTitleH1, ItemTitleH2, ItemTitleH2Red, ItemTitleH3, DividerShort, DividerLong, ImageStyle10, ItemTitleH4, ImageStyle11, ItemTitleH5} = customStyles;
 
         return (
             <ScrollView style={ ViewContainer }>
@@ -153,6 +153,44 @@ class ServiceLearning extends Component {
                         <Text style={ ItemTitleH3 }>(一) 互惠(Reciprocity)</Text>
                         <Text style={ ItemTitleH3 }>(二) 反思(Reflection)</Text>
                         <Image style={ ImageStyle10 } resizeMode={'stretch'} source={require('../../img/ServiceLearning.jpg')} />
+                    </View>
+                <Text style={ ItemTitleH1 }>八、「服務與學習」-實作課修課規定</Text>
+                    <View style={ ViewSubContainer }>
+                        <Text style={ ItemTitleH2 }>一、實施對象：</Text>
+                        <Text style={ ItemTitleH2 }>係規劃本校大學日間部同學(含一年級新生、未修習之轉學(系)生、復學生)共同必修「服務與學習(一)、(二)」課程為一學年(上、下學期，各零學分，必修課程)。</Text>
+                        <Text style={ ItemTitleH2 }>二、「實作課」課程內容：</Text>
+                        <Text style={ ItemTitleH3}>(一) 實施方式：</Text>
+                        <Text style={ ItemTitleH3 }>以安排學生參與校園內服務性工作為主，旨在引導學生身體力行服務工作，亦開放申請多元服務。</Text>
+                        <Text style={ ItemTitleH3 }>(二)上課時段：</Text>
+                        <Text style={ ItemTitleH3 }>1、校內一般服務：分早上班及下午班，每週服務3天，每天30分鐘為原則。</Text>
+                        <Text style={ ItemTitleH3 }>2、校內外展服務：與單位督導人員排班進行服務，服務需滿30小時並繳交反思心得。</Text>
+                        <Text style={ ItemTitleH3 }>3、校外多元服務：與機構督導人員排班進行服務，服務需滿30小時並繳交反思心得。</Text>
+                        <Text style={ ItemTitleH3 }>(三) 校內一般服務實作時間：</Text>
+                        <Text style={ ItemTitleH3 }>1.早上班：A組為星期一至星期三，B組為星期三至星期五，星期三為 A、B 組共同省思日。</Text>
+                        <Text style={ ItemTitleH3 }>2.下午班：A組為星期一至星期三，B組為星期二至星期四，星期二及星期三為A、B組共同省思日。</Text>
+                        <Image style={ ImageStyle11 } resizeMode={'stretch'} source={require('../../img/ServiceLearning1.png')} />
+                        <Text style={ ItemTitleH4 }>註：上課時段將依當學年度課程規劃開設。</Text>
+                        <Text style={ ItemTitleH3 }>(四) 校內一般服務編組原則：</Text>
+                        <Text style={ ItemTitleH3 }>校內服務依學校環境特性及學生人數，規劃成若干服務小組，服務內容由課服組依實際需要進行規劃與指派。</Text>
+                        <Text style={ ItemTitleH3 }>(五) 校內一般服務請假規定：</Text>
+                        <Text style={ ItemTitleH3 }>1.學生因故無法出席時，應按照本校學生請假規則辦理請假手續，未經准假而缺席者，一律以曠課論，不得要求補課。</Text>
+                        <Text style={ ItemTitleH3 }>2.晚到課依實作時間規定視同遲到或曠課。</Text>
+                        <Text style={ ItemTitleH3 }>3.每學期未出席之天數(意指「事假天數」+「病假天數」+「缺曠天數」)總計大於該學期應出席天數之1/2 者，則該學期成績以零分計算。</Text>
+                        <Text style={ ItemTitleH2 }>三、成績考核：</Text>
+                        <Text style={ ItemTitleH3 }>1.依據學生平時應到/實到/遲到/缺曠次數及請假次數(包含病假、事假)及實作態度、守時度、合作精神、配合度、心得報告及其他之加權總和評定學期總成績。</Text>
+                        <Text style={ ItemTitleH3 }>2.學期成績：實作課達60 分以上者為及格(成績將以「及格」或「P」表示)；成績不及格者(成績將以「不及格」或「F」 表示)，需重修。</Text>
+                        <Text style={ ItemTitleH3 }>3.大學日間部同學需於畢業前修畢「服務與學習」(一)、(二)課程。</Text>
+                        <Text style={ ItemTitleH3 }>4.基本服務學習嚴令禁止學生進行替代行為，一經查核發現，該階段相關同學成績將以零分計算。</Text>
+                        <Text style={ ItemTitleH3 }>5.基本服務學習成績表現優良者，由學校發給服務績優獎章(狀)獎勵。</Text>
+                        <Text style={ ItemTitleH2 }>四、停修申請作業：</Text>
+                        <Text style={ ItemTitleH3 }>依據教務處停修公告辦理。</Text>
+                        <Text style={ ItemTitleH2 }>五、重修申請作業：</Text>
+                        <Text style={ ItemTitleH3 }>將於「欲重修學期」之「前一學期期初」，依服學組公告辦理；暑期重修相關規定另訂之。</Text>
+                        <Text style={ ItemTitleH2 }>六、抵免申請作業：</Text>
+                        <Text style={ ItemTitleH3 }>依據教務處課程抵免公告辦理</Text>
+                        <Text style={ ItemTitleH3 }>1.若曾於他校已修畢類似課程且成績及格持有原學校證明者，即可提出抵免申請。</Text>
+                        <Text style={ ItemTitleH3 }>2.身心障礙之特殊學生，無法從事實作者，得經專簽奉核後，始可抵免「實作課」課程。</Text>
+                        <Text style={ ItemTitleH4 }>～～上述事項如有未盡事宜則另行修訂～～</Text>
                     </View>
             </ScrollView>
         );

@@ -84,6 +84,12 @@ export const customStyles = StyleSheet.create({
         marginBottom: 4,
         lineHeight: 30
     },
+    ItemTitleH5: {
+        fontSize: 14,
+        marginTop: 2,
+        marginBottom: 2,
+        lineHeight: 30
+    },
     ItemTitleH3Red: {
         fontSize: 18,
         marginTop: 6,
@@ -148,6 +154,10 @@ export const customStyles = StyleSheet.create({
         height: 320
     },
     ImageStyle10: {
+        width: 356,
+        height: 320
+    },
+    ImageStyle11: {
         width: 356,
         height: 320
     },
