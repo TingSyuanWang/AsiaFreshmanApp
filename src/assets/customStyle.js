@@ -161,6 +161,42 @@ export const customStyles = StyleSheet.create({
         width: 332,
         height: 220
     },
+    ImageStyle12: {
+        width: 332,
+        height: 220
+    },
+    ImageStyle13: {
+        width: 332,
+        height: 220
+    },
+    ImageStyle14: {
+        width: 332,
+        height: 220
+    },
+    ImageStyle15: {
+        width: 332,
+        height: 220
+    },
+    ImageStyle16: {
+        width: 332,
+        height: 220
+    },
+    ImageStyle17: {
+        width: 332,
+        height: 220
+    },
+    ImageStyle18: {
+        width: 332,
+        height: 220
+    },
+    ImageStyle19: {
+        width: 332,
+        height: 220
+    },
+    ImageStyle20: {
+        width: 332,
+        height: 220
+    },
     Signature: {
         flexDirection: 'row',
         justifyContent: 'flex-start',
