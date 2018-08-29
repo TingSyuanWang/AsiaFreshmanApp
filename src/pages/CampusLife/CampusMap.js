@@ -19,6 +19,7 @@ class CampusMap extends Component {
         return (
             <ScrollView style={ ViewContainer }>
                 <View style={ ViewSubContainerNoBorder }>
+                    <Text style={ ItemTitleH2 }>亞洲大學-校園導覽圖</Text>
                     <Image style={ ImageStyle6 } resizeMode={'stretch'} source={require('../../img/CampusTour.jpg')} />
                 </View>
             </ScrollView>
