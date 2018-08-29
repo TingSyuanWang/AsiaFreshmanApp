@@ -28,8 +28,8 @@ class StudentPractice extends Component {
             </View>
             <Text style={ ItemTitleH1 }>二、品牌企業實習服務</Text>
             <View style={ ViewSubContainer }>
-                <Text style={ ItemTitleH2 }>：為使品牌企業實習學生能夠順利銜接職場實習</Text>
-                <Text style={ ItemTitleH2 }>：規定如下：</Text>
+                <Text style={ ItemTitleH2 }>為使品牌企業實習學生能夠順利銜接職場實習</Text>
+                <Text style={ ItemTitleH3 }>規定如下：</Text>
                 <Text style={ ItemTitleH3 }>(一)培訓期間：</Text>
                 <Text style={ ItemTitleH3 }>1、大學部：自大一開始至大四止。</Text>
                 <Text style={ ItemTitleH3 }>2、碩士班：自碩一開始至碩二止。</Text>
