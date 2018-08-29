@@ -45,28 +45,22 @@ class ServiceLearning extends Component {
                     <Text style={ MainContentRed }>備註:不可停修</Text>
                     <Text style={ ItemTitleH3 }>服務與學習（二）－講授課(5班)</Text>
                     <Text style={ MainContentRed }>備註:不可停修</Text>
-
                     <Text style={ MainContentRed }>提醒一、實作課入學第一年由學校統一帶課並安排校內服務區域</Text>
                     <Text style={ MainContentRed }>提醒二、講授課於開學後教務處公告加退選期間自行選課(加退選結束後不可再加選或退選)</Text>
                     <Text style={ MainContentRed }>提醒三、需先完成服務與學習(一)-講授課，始可選修服務與學習(二)-講授課</Text>
-
                     <Divider style={ DividerLong } />
-
                     <Text style={ ItemTitleH3 }>課程名稱：</Text>
                     <Text style={ ItemTitleH3 }>服務與學習(一)-實作課</Text>
                     <Text style={ ItemTitleH3 }>課程內容：</Text>
                     <Text style={ ItemTitleH3 }>校園環境一般服務、行政/教學單位外展服務、校外多元服務</Text>
-
                     <Text style={ ItemTitleH3 }>課程名稱：</Text>
                     <Text style={ ItemTitleH3 }>服務與學習(二)-實作課</Text>
                     <Text style={ ItemTitleH3 }>課程內容：</Text>
                     <Text style={ ItemTitleH3 }>校園環境一般服務、行政/教學單位外展服務、校外多元服務</Text>
-
                     <Text style={ ItemTitleH3 }>課程名稱：</Text>
                     <Text style={ ItemTitleH3 }>服務與學習(一)-講授課</Text>
                     <Text style={ ItemTitleH3 }>課程內容：</Text>
                     <Text style={ ItemTitleH3 }>現場教學3小時+「臺北e大」志工基礎教育訓練</Text>
-
                     <Text style={ ItemTitleH3 }>課程名稱：</Text>
                     <Text style={ ItemTitleH3 }>服務與學習(二)-講授課</Text>
                     <Text style={ ItemTitleH3 }>課程內容：</Text>
@@ -77,12 +71,12 @@ class ServiceLearning extends Component {
                     <Text style={ ItemTitleH2 }>實作課：</Text>
                     <Text style={ ItemTitleH2 }>(一)選課：</Text>
                     <Text style={ ItemTitleH3 }>{'\t'}9/5（三）於課服組網站公告校內外展服務單位選填作業辦法，請修課學生依規定選填服務單位，未於時間內填選外展服務單位之學生，統一由課服組隨機安排。</Text>
-                    <Text style={ ItemTitleH2 }>(二)上課：{'\t'}9/19（三）起一般服務修課同學依課表開始正式上課(正式紀錄缺曠)；其餘外展服務及校外多元服務學生則9/21(五)前自行至各單位/機構辦理報到及進行服務。</Text>
+                    <Text style={ ItemTitleH2 }>(二)上課：</Text>
                     <Text style={ ItemTitleH3 }>{'\t'}9/19（三）起一般服務修課同學依課表開始正式上課(正式紀錄缺曠)；其餘外展服務及校外多元服務學生則9/21(五)前自行至各單位/機構辦理報到及進行服務。</Text>
                     <Text style={ ItemTitleH2 }>講授課：</Text>
-                    <Text style={ ItemTitleH2 }>(一)選課：{'\t'}開學前一週於課服組網站公告各梯次上課資訊，修課學生依教務處公告｢加退選｣期間自行選課，加退選時間過後，恕不受理停修或退選。</Text>
+                    <Text style={ ItemTitleH2 }>(一)選課：</Text>
                     <Text style={ ItemTitleH3 }>{'\t'}開學前一週於課服組網站公告各梯次上課資訊，修課學生依教務處公告｢加退選｣期間自行選課，加退選時間過後，恕不受理停修或退選。</Text>
-                    <Text style={ ItemTitleH2 }>(二)上課：{'\t'}修課學生依各梯次上課日期出席課程，如有缺課紀錄當學期成績為不通過。 </Text>
+                    <Text style={ ItemTitleH2 }>(二)上課：</Text>
                     <Text style={ ItemTitleH3 }>{'\t'}修課學生依各梯次上課日期出席課程，如有缺課紀錄當學期成績為不通過。 </Text>
                 </View>
 
@@ -133,33 +127,33 @@ class ServiceLearning extends Component {
                 <Text style={ ItemTitleH1 }>七、服務學習精神理念：</Text>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH2 }>一、服務與學習理念及目的</Text>
-                    <Text style={ ItemTitleH3 }>(一) 鼓勵學生關懷社會、愛護環境、服務人群</Text>
-                    <Text style={ ItemTitleH3 }>(二) 培養學生實際動手執行的習慣與能力</Text>
-                    <Text style={ ItemTitleH3 }>(三) 激勵學生身心靈全面均衡發展</Text>
-                    <Text style={ ItemTitleH3 }>(四) 培育學生具備良好的生活習慣與熱忱的服務精神，及管理自我和交付任務的能力</Text>
+                    <Text style={ ItemTitleH3 }>1、鼓勵學生關懷社會、愛護環境、服務人群</Text>
+                    <Text style={ ItemTitleH3 }>2、培養學生實際動手執行的習慣與能力</Text>
+                    <Text style={ ItemTitleH3 }>3、激勵學生身心靈全面均衡發展</Text>
+                    <Text style={ ItemTitleH3 }>4、培育學生具備良好的生活習慣與熱忱的服務精神，及管理自我和交付任務的能力</Text>
                 </View>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH2 }>二、服務與學習方案的發展</Text>
-                    <Text style={ ItemTitleH3 }>(一) 準備階段(Preparation)</Text>
-                    <Text style={ ItemTitleH3 }>(二) 服務階段(Service)</Text>
-                    <Text style={ ItemTitleH3 }>(三) 反思階段(Reflection)</Text>
-                    <Text style={ ItemTitleH3 }>(四) 慶賀階段(Celebration)</Text>
+                    <Text style={ ItemTitleH3 }>1、準備階段(Preparation)</Text>
+                    <Text style={ ItemTitleH3 }>2、服務階段(Service)</Text>
+                    <Text style={ ItemTitleH3 }>3、(三) 反思階段(Reflection)</Text>
+                    <Text style={ ItemTitleH3 }>4、慶賀階段(Celebration)</Text>
                 </View>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH2 }>三、服務與學習的意義</Text>
-                    <Text style={ ItemTitleH3 }>(一) 一種哲學 — 互惠的價值</Text>
-                    <Text style={ ItemTitleH3 }>(二) 一種教學法 — 經驗與反思</Text>
-                    <Text style={ ItemTitleH3 }>(三) 一種方案 — 結合學習目標</Text>
+                    <Text style={ ItemTitleH3 }>1、一種哲學 — 互惠的價值</Text>
+                    <Text style={ ItemTitleH3 }>2、一種教學法 — 經驗與反思</Text>
+                    <Text style={ ItemTitleH3 }>3、(三) 一種方案 — 結合學習目標</Text>
                 </View>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH2 }>四、服務與學習(Service-Learning)的定義</Text>
-                    <Text style={ ItemTitleH3 }>(一) 以服學課程為基礎的社區服務</Text>
-                    <Text style={ ItemTitleH3 }>(二) 統合課堂教學與社區服務活動</Text>
+                    <Text style={ ItemTitleH3 }>1、以服學課程為基礎的社區服務</Text>
+                    <Text style={ ItemTitleH3 }>2、統合課堂教學與社區服務活動</Text>
                 </View>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH2 }>五、服務與學習的中心要素</Text>
-                    <Text style={ ItemTitleH3 }>(一) 互惠(Reciprocity)</Text>
-                    <Text style={ ItemTitleH3 }>(二) 反思(Reflection)</Text>
+                    <Text style={ ItemTitleH3 }>1、互惠(Reciprocity)</Text>
+                    <Text style={ ItemTitleH3 }>2、反思(Reflection)</Text>
                     <Image style={ ImageStyle10 } resizeMode={'stretch'} source={require('../../img/ServiceLearning.jpg')} />
                 </View>
                 <Text style={ ItemTitleH1 }>八、「服務與學習」-實作課修課規定</Text>
@@ -214,17 +208,17 @@ class ServiceLearning extends Component {
                     <Text style={ MainContent }>(3)施行時程：自當學期第3週起至第15週止。</Text>
 
                     <Text style={ ItemTitleH3 }>(四)時數規定：</Text>
-                    <Text style={ ItemTitleH3 }>{'\t'}需於規定之施行時程內服務滿30小時，且每週服務時數最多4小時為限。</Text>
+                    <Text style={ ItemTitleH4 }>{'\t'}需於規定之施行時程內服務滿30小時，且每週服務時數最多4小時為限。</Text>
                     <Text style={ ItemTitleH3 }>(五)申請文件：</Text>
-                    <Text style={ ItemTitleH3 }>{'\t'}需檢附亞洲大學多元服務學習申請書。(請至學生事務處服務學習組網站-表單下載區下載)</Text>
+                    <Text style={ ItemTitleH4 }>{'\t'}需檢附亞洲大學多元服務學習申請書。(請至學生事務處服務學習組網站-表單下載區下載)</Text>
                     <Text style={ ItemTitleH3 }>(六)認證規定</Text>
 
-                    <Text style={ ItemTitleH3 }>1、服務結束後一週內，需繳回認證資料通過複核後，始可登錄成績：</Text>
+                    <Text style={ ItemTitleH4 }>1、服務結束後一週內，需繳回認證資料通過複核後，始可登錄成績：</Text>
                     <Text style={ MainContent }>(1)多元服務學習時數證明單。</Text>
                     <Text style={ MainContent }>(2)多元服務學習反思心得報告(含服務照片至少4張)。</Text>
                     <Text style={ MainContent }>(3)多元服務學習問卷調查表。</Text>
-                    <Text style={ ItemTitleH3 }>2、本多元服務學習時數不得與各系所規定之實習時數重覆認定。</Text>
-                    <Text style={ ItemTitleH3 }>3、依據服務學習施行要點規定，每學期需實作滿30小時，未達時數者，該學期成績不予通過並需重修。</Text>
+                    <Text style={ ItemTitleH4 }>2、本多元服務學習時數不得與各系所規定之實習時數重覆認定。</Text>
+                    <Text style={ ItemTitleH4 }>3、依據服務學習施行要點規定，每學期需實作滿30小時，未達時數者，該學期成績不予通過並需重修。</Text>
                     <Text style={ ItemTitleH2 }>三、參加多元服務學習學生凡有不法行為或以他人名義替代服務者，經查證屬實，該生該學期該科不予通過並需重修，且依本校學生獎懲辦法嚴處。</Text>
                     <Text style={ ItemTitleH2 }>四、依本要點折抵時數之學生，其所填送之各項資料，經查明有虛偽不實者，將依相關規定提出適當懲處並重修本課程。</Text>
                 </View>
@@ -241,12 +235,12 @@ class ServiceLearning extends Component {
                     <Text style={ ItemTitleH3 }>(二)申請時間：</Text>
                     <Text style={ ItemTitleH4 }>{'\t'}依教務處公告之抵免作業及時程配合辦理。</Text>
                     <Text style={ ItemTitleH3 }>(三)申請文件：</Text>
-                    <Text style={ ItemTitleH3 }>1、講授一：志願服務基礎訓練結業證書影本。</Text>
+                    <Text style={ ItemTitleH4 }>1、講授一：志願服務基礎訓練結業證書影本。</Text>
                     <Text style={ MainContent }>{'\t'}104學年度起本校講授(一)為現場授課3小時及e化教學(臺北e大)，如果僅持臺北e大學習證明抵免講授(一)恕不同意抵免</Text>
                     <Text style={ MainContent }>{'\t'}持臺北e大學習證明者需同時檢具志願服務特殊訓練結業證書(需滿12小時)或志願服務紀錄冊影本，同時申請講授(一)(二)抵免，始可受理申請。</Text>
-                    <Text style={ ItemTitleH3 }>2、講授二：志願服務特殊訓練結業證書(需滿12小時)或志願服務紀錄冊影本。</Text>
+                    <Text style={ ItemTitleH4 }>2、講授二：志願服務特殊訓練結業證書(需滿12小時)或志願服務紀錄冊影本。</Text>
                     <Text style={ ItemTitleH3 }>(四)受理地點：</Text>
-                    <Text style={ ItemTitleH3 }>{'\t'}依教務處學分抵免規定辦理，採線上申請，證明資料則寄送至各系所。</Text>
+                    <Text style={ ItemTitleH4 }>{'\t'}依教務處學分抵免規定辦理，採線上申請，證明資料則寄送至各系所。</Text>
                     <Text style={ ItemTitleH2 }>五、注意事項：</Text>
                     <Text style={ ItemTitleH3 }>(一)選課後請確實出席、簽到並勿遲到早退。</Text>
                     <Text style={ ItemTitleH3 }>(二)請於選課前確認個人時間，無故未到者取消資格並不得再報名由本校辦理之其他梯次訓練。</Text>
@@ -256,7 +250,7 @@ class ServiceLearning extends Component {
                 <Text style={ ItemTitleH1 }>十一、校內一般服務學生實作論壇—帳號申請說明</Text>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH2 }>第一步驟：進入畫面</Text>
-                        <Text style={ ItemTitleH3 }>點擊下方連結進入服務與學習實作論壇區</Text>
+                        <Text style={ ItemTitleH3 }>點擊下方連結</Text>
                     <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='服務與學習實作論壇' onPress={ ()=>{ Linking.openURL('http://ausls.666forum.com/forum')}} />
                     <Image style={ ImageStyle13 } resizeMode={'stretch'} source={require('../../img/ServiceLearning3.png')} />
                     <Text style={ ItemTitleH2 }>第二步驟：看完條文一定要點選”我同意以上條文”喔</Text>
@@ -349,16 +343,16 @@ class ServiceLearning extends Component {
                     <Text style={ ItemTitleH3 }>二、透過清潔服務，從中學習愛家、愛校、愛土地的態度和情懷。</Text>
                     <Text style={ ItemTitleH3 }>三、建立一個「Garbage Free」的乾淨校園。</Text>
                     <Text style={ ItemTitleH2 }>参、計劃內容</Text>
-                    <Text style={ ItemTitleH3 }>{'\t'}本計劃將動員全校師生以無時無刻共同創造一個整潔的教室，讓上課成為一個享受，不要將一堆垃圾留給下位使用者。內容如下：</Text>
+                    <Text style={ ItemTitleH3 }>{'\t'}本計劃將動員全校師生以無時無刻共同創造一個整潔的教室，讓上課成為一個享受，不要將一堆垃圾留給下位使用者。</Text>
                     <Text style={ ItemTitleH3 }>內容如下：</Text>
                     <Text style={ ItemTitleH3 }>一、上課前：</Text>
                     <Text style={ ItemTitleH4 }>{'\t'}請每位上課師長利用一分鐘的時間和同學一起將老師的附近，以及同學所坐桌椅周圍之垃圾拿至每樓層兩側廁所垃圾桶。</Text>
                     <Text style={ ItemTitleH3 }>二、下課後：</Text>
-                    <Text style={ ItemTitleH3 }>{'\t'}請提醒同學把黑/白板擦乾淨，並隨手把桌椅排整齊及周圍之垃圾拿至每樓層兩側廁所垃圾桶；並隨手關燈、關冷氣，以節約能源。</Text>
+                    <Text style={ ItemTitleH4 }>{'\t'}請提醒同學把黑/白板擦乾淨，並隨手把桌椅排整齊及周圍之垃圾拿至每樓層兩側廁所垃圾桶；並隨手關燈、關冷氣，以節約能源。</Text>
                     <Text style={ ItemTitleH3 }>請喚起大家公德心、節約心</Text>
                     <Text style={ ItemTitleH3 }>共同攜手守護亞大校園</Text>
                     <Text style={ ItemTitleH3 }>永遠把『乾淨的空間』留給下位使用者</Text>
-                    <Text style={ ItemTitleH3 }>【推動者：學務處課外活動與服務學習組】</Text>
+                    <Text style={ MainContent }>【推動者：學務處課外活動與服務學習組】</Text>
                     <Image style={ ImageStyle20 } resizeMode={'stretch'} source={require('../../img/ServiceLearning10.png')} />
                 </View>
             </ScrollView>
