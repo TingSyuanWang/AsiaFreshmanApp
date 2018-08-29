@@ -42,9 +42,9 @@ class SchoolLoan extends Component {
                     <Text style={ ItemTitleH3 }>家庭年收入所得總額：120萬元以上</Text>
                     <Text style={ ItemTitleH3 }>貸款利息：貸款利息需全額自付，自臺灣銀行撥款日次月起於每月第一個營業日繳付利息。（利息按教育部與銀行協議訂定之利率浮動計算）</Text>
                     <Text style={ ItemTitleH3 }>如需辦理規定：</Text>
-                    <Text style={ ItemTitleH3 }>1.學生本人需有第二位兄弟姊妹就讀高級中等以上學校。</Text>
-                    <Text style={ ItemTitleH3 }>2.備妥兄弟姊妹該學期就學相關證明。</Text>
-                    <Text style={ ItemTitleH3 }>3.收到第二階段簡訊通知後，請盡速至生輔組辦理；如需放棄也請至生輔組辦理。</Text>
+                    <Text style={ ItemTitleH3 }>1、學生本人需有第二位兄弟姊妹就讀高級中等以上學校。</Text>
+                    <Text style={ ItemTitleH3 }>2、備妥兄弟姊妹該學期就學相關證明。</Text>
+                    <Text style={ ItemTitleH3 }>3、收到第二階段簡訊通知後，請盡速至生輔組辦理；如需放棄也請至生輔組辦理。</Text>
                     <Text style={ MainContentRed }>備註：每月請自行至臺灣銀行繳付利息。</Text>
                 </View>
             </ScrollView>
