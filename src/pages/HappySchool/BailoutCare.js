@@ -89,7 +89,8 @@ class BailoutCare extends Component {
                     <Text style={ ItemTitleH2 }>2、上列申請基本條件均需為本校學生(具學籍)其餘資格詳如各申請表。</Text>
                     <Text style={ ItemTitleH2 }>3、所有申請表單及作業方式請逕由生輔組網頁下載參考運用。</Text>
                     <Text style={ ItemTitleH2 }>4、部分補助與政府其餘獎助辦法相互排擠，申請人需自行選擇提出申請項目。</Text>
-                    <Text style={ ItemTitleH2 }>5、為方便同學書面申請作業，學務處特成立『紓困關懷服務中心』統一辦理上述各項申請表單之遞送。生輔組分機電話：3211</Text>
+                    <Text style={ ItemTitleH2 }>5、為方便同學書面申請作業，學務處特成立『紓困關懷服務中心』統一辦理上述各項申請表單之遞送。</Text>
+                    <Text style={ ItemTitleH2 }>生輔組分機電話：3211</Text>
                 </View>
             </ScrollView>
         );
