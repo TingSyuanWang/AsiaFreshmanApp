@@ -18,7 +18,7 @@ class SchoolTuitionReduction extends Component {
 
         return (
             <ScrollView style={ ViewContainer }>
-                    <Text style={ ItemTitleH1 }>給卹期內軍公教遺族</Text>
+                    <Text style={ ItemTitleH1 }>一、給卹期內軍公教遺族</Text>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH2 }>應檢驗證件</Text>
                     <Divider style={ DividerShort } />
@@ -35,7 +35,7 @@ class SchoolTuitionReduction extends Component {
                     <Text style={ ItemTitleH3 }>5、證件未登載申請優待學生姓名者無效，請學生逕向銓敘部或教育行政主管機關或國防部後備司令部留守處申請核發領受撫卹金之相關證明。</Text>
                     <Text style={ ItemTitleH3 }>6、卹內軍公教遺族減免之主、副食費之發給，每學年分上、下學期發給，以當年8月至翌年1月，計6個月為上學期；2月至7月，計6個月為下學期（應屆畢業生為2月至6月，計5個月）；新生則自申請經核准之該學期註冊月份起計。</Text>
                 </View>
-                    <Text style={ ItemTitleH1 }>給卹期滿軍公教遺族</Text>
+                    <Text style={ ItemTitleH1 }>二、給卹期滿軍公教遺族</Text>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH2 }>應檢驗證件</Text>
                     <Divider style={ DividerShort } />
@@ -52,7 +52,7 @@ class SchoolTuitionReduction extends Component {
                     <Text style={ ItemTitleH3 }>5、證件未登載申請優待學生姓名者無效，請學生逕向銓敘部或教育行政主管機關或國防部後備司令部留守處申請核發領受撫卹金之相關證明。</Text>
                     <Text style={ ItemTitleH3 }>6、卹內軍公教遺族減免之主、副食費之發給，每學年分上、下學期發給，以當年8月至翌年1月，計6個月為上學期；2月至7月，計6個月為下學期（應屆畢業生為2月至6月，計5個月）；新生則自申請經核准之該學期註冊月份起計。</Text>
                 </View>
-                    <Text style={ ItemTitleH1 }>現役軍人子女</Text>
+                    <Text style={ ItemTitleH1 }>三、現役軍人子女</Text>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH2 }>應檢驗證件</Text>
                     <Divider style={ DividerShort } />
@@ -63,7 +63,7 @@ class SchoolTuitionReduction extends Component {
                     <Text style={ ItemTitleH3 }>1、查核其家長是否為現役軍人。</Text>
                     <Text style={ ItemTitleH3 }>2、由學校自行查驗，無須報部核定。</Text>
                 </View>
-                    <Text style={ ItemTitleH1 }>身心障礙學生</Text>
+                    <Text style={ ItemTitleH1 }>四、身心障礙學生</Text>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH2 }>應檢驗證件</Text>
                     <Divider style={ DividerShort } />
@@ -76,7 +76,7 @@ class SchoolTuitionReduction extends Component {
                     <Text style={ ItemTitleH3 }>2、所持身心障礙手冊之有效期限或後續鑑定日期。</Text>
                     <Text style={ ItemTitleH3 }>3、學習障礙：檢附鑑輔會證明文件。</Text>
                 </View>
-                    <Text style={ ItemTitleH1 }>身心障礙人士子女</Text>
+                    <Text style={ ItemTitleH1 }>五、身心障礙人士子女</Text>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH2 }>應檢驗證件</Text>
                     <Divider style={ DividerShort } />
@@ -90,7 +90,7 @@ class SchoolTuitionReduction extends Component {
                     <Text style={ ItemTitleH3 }>4、繼父母為身心障礙人士與學生應具收養關係始為法律上之父（母）子（女）。</Text>
                     <Text style={ ItemTitleH3 }>5、父母無法行使親權，同居之祖父母始為法定監護人。</Text>
                 </View>
-                    <Text style={ ItemTitleH1 }>低收入戶學生及中低收入戶學生</Text>
+                    <Text style={ ItemTitleH1 }>六、低收入戶學生及中低收入戶學生</Text>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH2 }>應檢驗證件</Text>
                     <Divider style={ DividerShort } />
@@ -102,13 +102,13 @@ class SchoolTuitionReduction extends Component {
                     <Text style={ ItemTitleH3 }>2、請確認學生是否被納入低收入戶或中低收入人口內，此項可請公所開具低收入戶人口證明。</Text>
                     <Text style={ ItemTitleH3 }>3、相關申請事項請逕洽各縣市社會救助業務聯絡窗口。</Text>
                 </View>
-                    <Text style={ ItemTitleH1 }>原住民學生</Text>
+                    <Text style={ ItemTitleH1 }>七、原住民學生</Text>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH2 }>應檢驗證件</Text>
                     <Divider style={ DividerShort } />
                     <Text style={ ItemTitleH3 }>全戶戶籍謄本</Text>
                 </View>
-                    <Text style={ ItemTitleH1 }>特殊境遇家庭之子女</Text>
+                    <Text style={ ItemTitleH1 }>八、特殊境遇家庭之子女</Text>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH2 }>應檢驗證件</Text>
                     <Divider style={ DividerShort } />
