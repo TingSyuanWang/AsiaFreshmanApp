@@ -13,7 +13,7 @@ class StudentPractice extends Component {
         )} />
     });
 
-    3ender () {
+    ender () {
         const { ViewContainer, ViewSubContainer, ItemTitleH1, ItemTitleH2, ItemTitleH3, ItemTitleH3Red } = customStyles;
 
         return (
