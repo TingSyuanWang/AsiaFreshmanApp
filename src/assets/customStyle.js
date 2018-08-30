@@ -90,6 +90,14 @@ export const customStyles = StyleSheet.create({
         marginBottom: 2,
         lineHeight: 30
     },
+    ItemTitleH2Yellow:{
+        color:'#FF7700',
+        fontSize:40,
+        fontWeight:'bold',
+        textShadowColor:'#C0C0C0',
+        textShadowRadius:2,
+        textShadowOffset:{width:2,height:2},
+    },
     ItemTitleH3Red: {
         fontSize: 18,
         marginTop: 6,
