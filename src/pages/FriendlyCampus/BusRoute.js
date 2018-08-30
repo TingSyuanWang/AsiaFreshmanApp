@@ -25,7 +25,7 @@ class BusRoute extends Component {
                 </View>
                 <Text style={ ItemTitleH1 }>港尾-南開科大(108)</Text>
                 <View style={ ViewSubContainerNoBorder }>
-                    <Image style={ ImageStyle8 } resizeMode={'stretch'} source={require('../../img/Bus1.gif')} />
+                    <Image style={ ImageStyle8 } resizeMode={'stretch'} source={require('../../img/Bus1.png')} />
                 </View>
                 <Text style={ ItemTitleH1 }>新市政中心-朝陽科大(151)</Text>
                 <View style={ ViewSubContainerNoBorder }>
