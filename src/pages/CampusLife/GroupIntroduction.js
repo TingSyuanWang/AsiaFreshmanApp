@@ -17,8 +17,9 @@ class GroupIntroduction extends Component {
 
         return (
             <ScrollView style={ ViewContainer }>
-                <Text style={ ItemTitleH2 }>本校社團依性質共區分為自治、服務、康樂、學藝、體育、綜合等六大類社團，以培養學生多方面學習與發展，提供學生豐富而多樣化之課餘活動。</Text>
-                <Text style={ ItemTitleH2 }>所在地點：課服組辦公室位於「行政大樓A118」。學生社團辦公室位於「築夢學苑地下室」。</Text>
+                <Text style={ ItemTitleH2 }>{'\t'}本校社團依性質共區分為自治、服務、康樂、學藝、體育、綜合等六大類社團，以培養學生多方面學習與發展，提供學生豐富而多樣化之課餘活動。</Text>
+                <Text style={ ItemTitleH2 }>所在地點：</Text>
+                <Text style={ ItemTitleH3 }>{'\t'}課服組辦公室位於「行政大樓A118」。學生社團辦公室位於「築夢學苑地下室」。</Text>
                 <Text style={ ItemTitleH2 }>自治性</Text>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH3 }>學生會</Text>
@@ -139,8 +140,8 @@ class GroupIntroduction extends Component {
                 </View>
                 <View style={ ViewSubContainerNoBorder }>
                     <Text style={ ItemTitleH2 }>校內各社團粉絲專頁請至課服組網站搜尋</Text>
-                    <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='課服組網站' onPress={ ()=>{ Linking.openURL('http://ecas.asia.edu.tw/bin/home.php')}} />
                     <Text style={ ItemTitleH2 }>步驟：亞洲大學課服組 => 社團專區 => 所有社團資訊 => 挑選自己喜歡的社團 => 完成</Text>
+                    <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='課服組網站' onPress={ ()=>{ Linking.openURL('http://ecas.asia.edu.tw/bin/home.php')}} />
                 </View>
             </ScrollView>
         );
