@@ -20,7 +20,7 @@ class GenderEquality extends Component {
                 <View style={ ViewContainer }>
                     <Text style={ ItemTitleH1 }> 一、性別平等：</Text>
                     <Text style={ ItemTitleH2 }>【性騷擾的應對模式】當遭遇到性騷擾時，若採取消極應對模式，如隱忍不說、不予理會(如假裝聽不見或聽不懂)、逃避(如轉學/班、搬家等)，通常不會發生制止的效用，且可能讓騷擾者食髓知味。請勇敢堅定拒絕對方不當言語或肢體行為的性騷擾。</Text>
-                    <Text style={ ItemTitleH2 }>若不幸遭遇性騷擾、性侵害或性霸凌時，你可以採取以下求助</Text>
+                    <Text style={ ItemTitleH2 }>◎若不幸遭遇性騷擾、性侵害或性霸凌時，你可以採取以下求助管道：</Text>
                     <Text style={ ItemTitleH3 }>校內申訴單位：學生事務處(04)23323456分機3202或申訴信箱（student@asia.edu.tw）。</Text>
                     <Text style={ ItemTitleH3 }>心理諮商輔導管道：諮商輔導組(04)23323456分機6265~6269、1748。</Text>
                     <Text style={ ItemTitleH2 }>名詞定義</Text>
@@ -37,13 +37,13 @@ class GenderEquality extends Component {
                     <Text style={ ItemTitleH1 }>三、	校外資源：</Text>
                     <Text style={ ItemTitleH2 }>台中市家庭暴力及性侵害防治中心04-22289111。</Text>
                     <Text style={ ItemTitleH2 }>全國性騷擾防治諮詢專線113。</Text>
-                    <Text style={ ItemTitleH2 }>相關性別平等教育法規：</Text>
+                    <Text style={ ItemTitleH2 }>◎相關性別平等教育法規：</Text>
                     <Text style={ ItemTitleH3 }>性別平等教育法</Text>
                     <Text style={ ItemTitleH3 }>校園性侵害性騷擾或性霸凌防治準則</Text>
                     <Text style={ ItemTitleH3 }>亞洲大學校園性侵害性騷擾或性霸凌防治要點</Text>
                     <Text style={ ItemTitleH3 }>亞洲大學學生懷孕事件處理要點</Text>
                     <Text style={ ItemTitleH3 }>亞洲大學性別平等教育工作實施要點</Text>
-                    <Text style={ ItemTitleH2 }>相關性別平等教育網站：</Text>
+                    <Text style={ ItemTitleH2 }>◎相關性別平等教育網站：</Text>
                     <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='教育部性別平等教育全球資訊網' onPress={ ()=>{ Linking.openURL('https://www.gender.edu.tw/web/index.php/home/index')}} />
                     <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='內政部關懷E起來' onPress={ ()=>{ Linking.openURL('https://ecare.mohw.gov.tw/')}} />
                     <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='亞洲大學性別平等教育委員會' onPress={ ()=>{ Linking.openURL('http://geec.asia.edu.tw/bin/home.php')}} />
