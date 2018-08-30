@@ -143,7 +143,7 @@ export const customStyles = StyleSheet.create({
     },
     ImageStyle6: {
         width: 356,
-        height: 320
+        height: 200
     },
     ImageStyle7: {
         width: 356,
