@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, ScrollView, View } from 'react-native';
+import {Text, ScrollView, View, Linking} from 'react-native';
 import { Card, Button, List, ListItem, Icon } from 'react-native-elements';
 import { NavigationActions } from 'react-navigation';
 import { customStyles } from '../../assets/customStyle';
@@ -23,6 +23,7 @@ class StudentsAppeals extends Component {
                     <Text style={ ItemTitleH2 }>「經濟社會文化權利國際公約」（International Covenant on Economic, Social and Cultural Rights）：在促進各國對人權及自由之重視，提升人類在政治地位及經濟、社會、文化各方面之發展；規定締約國應尊重人民之自決權、工作權以及男女平等、組織公會、罷工、免除飢餓、恐懼、教育、工作等權利，提供人民適當之勞工保護、社會安全保險、家庭福利、參與文化、科學生活等平等機會。</Text>
                     <Text style={ ItemTitleH2 }>本校學生、學生會及其他相關學生自治組織，對於本校之懲處、其他措施或決議，認為違法或不當，致損害其權利或利益者，得依規定，向學生申訴評議委員會提出申訴。</Text>
                     <Text style={ ItemTitleH2 }>亞洲大學申訴受理窗口：</Text>
+                    <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='學生申訴評議委員會' onPress={ ()=>{ Linking.openURL('http://sd3.asia.edu.tw/files/90-1033-9.php?Lang=zh-tw')}} />
                     <Text style={ ItemTitleH2 }>學生事務處（行政大樓一樓，分機3202）或申訴信箱（student@asia.edu.tw）</Text>
                 </View>
             </ScrollView>
