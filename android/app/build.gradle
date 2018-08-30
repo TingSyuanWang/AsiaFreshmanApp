@@ -104,14 +104,15 @@ android {
     }
     compileSdkVersion rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.asiafreshman2018"
+        applicationId "com.freshman"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        versionCode 7
+        versionName "2.2.1"
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
+        signingConfig signingConfigs.config
     }
     splits {
         abi {
@@ -145,6 +146,8 @@ android {
         }
     }
     buildToolsVersion '27.0.3'
+    productFlavors {
+    }
 }
 
 dependencies {
