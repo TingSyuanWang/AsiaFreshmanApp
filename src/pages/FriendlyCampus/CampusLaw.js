@@ -39,6 +39,8 @@ class CampusLaw extends Component {
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH1 }>案例三</Text>
                     <Text style={ ItemTitleH2 }>某大學學生影印教科書，檢察官首度對為求省錢而非法影印教科書的大學生求處拘役以示警惕，以往相關案例多只追究業者的責任，這次檢方首開全國先例起訴學生並求刑。依照著作權法第91條第1項及同法第88條等規定，必須負擔民、刑事責任。由於智慧有價，學生實難以原文書售價較高作為使用盜版書籍之藉口而免責。對於教科書的影印，著作權法固然制訂了一些「合理使用」的規定，在影印的數量很少，佔教科書整體的比例不大，且對教科書市場影響有限的合理範圍情況下，可以不必得到授權，即可合法使用。但如果是整本影印、化整為零或分批影印達到整本影印的效果，抑或是像前述報載案例影印教科書將近一半頁數，對於著作市場會 產生取代的結果，很難被認可為「合理使用」。</Text>
+                </View>
+                <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH2 }>防詐騙手冊-八種詐騙預防小叮嚀</Text>
                     <Divider style={ DividerLong } />
                     <Text style={ ItemTitleH3 }>防騙第一部【假警察、檢察官辦案詐騙】</Text>
@@ -56,6 +58,7 @@ class CampusLaw extends Component {
                     <Text style={ MainContent }>不讓歹徒繼續操控你的情緒</Text>
                     <Text style={ MainContent }>三查！快撥165反詐騙專線查證！</Text>
                     <Text style={ MainContent }>將剛才聽到的電話內容告訴165</Text>
+                    <Divider style={ DividerLong } />
                     <Text style={ ItemTitleH3 }>防騙第二部【購物個資外洩詐騙】</Text>
                     <Text style={ MainContent }>詐騙電話關鍵字：向您核對購買商品日期、金額！</Text>
                     <Text style={ MainContent }>說您收商品時簽單錯誤！</Text>
@@ -70,6 +73,7 @@ class CampusLaw extends Component {
                     <Text style={ MainContent }>不讓歹徒繼續操控你的情緒</Text>
                     <Text style={ MainContent }>三查！快撥165反詐騙專線查證！</Text>
                     <Text style={ MainContent }>將剛才聽到的電話內容告訴165</Text>
+                    <Divider style={ DividerLong } />
                     <Text style={ ItemTitleH3 }>防騙第三部【網路購物詐騙】</Text>
                     <Text style={ MainContent }>詐騙關鍵字：開msn，跳出交易平台，另談交易細節！</Text>
                     <Text style={ MainContent }>商品已缺貨，要買要快！</Text>
@@ -79,6 +83,7 @@ class CampusLaw extends Component {
                     <Text style={ MainContent }>1.網路世界虛擬多變，請堅持面交商品。</Text>
                     <Text style={ MainContent }>2.與市價相差太多商品，就要小心有詐。</Text>
                     <Text style={ MainContent }>3.已買不到的商品如入場券，要考慮賣家的商品來源，為確保交易安全，務必堅持當面交易，並可請售票系統商家，查驗票卷真偽。</Text>
+                    <Divider style={ DividerLong } />
                     <Text style={ ItemTitleH3 }>防騙第四部【網路援交詐騙】</Text>
                     <Text style={ MainContent }>詐騙關鍵字：女網友主動邀約見面！</Text>
                     <Text style={ MainContent }>見面前要去自動提款機！</Text>
@@ -90,6 +95,7 @@ class CampusLaw extends Component {
                     <Text style={ MainContent }>1.網友相約見面前，要求操作自動提款機就是詐騙！</Text>
                     <Text style={ MainContent }>2.自動提款機沒有身分辨識功能！</Text>
                     <Text style={ MainContent }>3.一旦發現自動提款機操作出錯，或遇到恐嚇，應立刻撥打165反詐騙專線報案。</Text>
+                    <Divider style={ DividerLong } />
                     <Text style={ ItemTitleH3 }>防騙第五部【求職詐騙】</Text>
                     <Text style={ MainContent }>詐騙關鍵字：網路或報紙刊登徵人廣告！</Text>
                     <Text style={ MainContent }>廣告只刊登行動電話！</Text>
@@ -102,6 +108,7 @@ class CampusLaw extends Component {
                     <Text style={ MainContent }>2.未查明公司營運、資本實際狀況下，勿輕易投資。</Text>
                     <Text style={ MainContent }>3.拒絕刷卡買產品衝業績的工作要求。</Text>
                     <Text style={ MainContent }>4.未正式工作前，不要操作自動提款機，辦理薪資入帳設定，這也是常見詐騙陷阱。</Text>
+                    <Divider style={ DividerLong } />
                     <Text style={ ItemTitleH3 }>防騙第六部【中獎、投資詐騙】</Text>
                     <Text style={ MainContent }>詐騙關鍵字：</Text>
                     <Text style={ MainContent }>【電話詐騙】公司舉辦抽獎活動，要您到場共襄盛舉！</Text>
@@ -114,6 +121,7 @@ class CampusLaw extends Component {
                     <Text style={ MainContent }>反詐騙小叮嚀：</Text>
                     <Text style={ MainContent }>1.中獎電話、公司地點、匯款銀行都在國外，查證不易，勿輕易匯款。</Text>
                     <Text style={ MainContent }>2.165反詐騙專線數位資料庫，可協助查詢冒名詐騙公司名稱。</Text>
+                    <Divider style={ DividerLong } />
                     <Text style={ ItemTitleH3 }>防騙第七部【家戶拜訪詐騙】</Text>
                     <Text style={ MainContent }>詐騙關鍵字：自稱是台電、瓦斯公司檢查管線！</Text>
                     <Text style={ MainContent }>要更換水電、瓦斯管線並收費！</Text>
@@ -128,6 +136,7 @@ class CampusLaw extends Component {
                     <Text style={ MainContent }>二問！隔著門問來者姓名、單位、何事來訪。</Text>
                     <Text style={ MainContent }>三查！快撥165反詐騙專線查證！</Text>
                     <Text style={ MainContent }>可查明來者身分以及到訪是否屬實。</Text>
+                    <Divider style={ DividerLong } />
                     <Text style={ ItemTitleH3 }>防騙第八部【假親友詐騙】</Text>
                     <Text style={ MainContent }>詐騙關鍵字：自稱是您的親人（兒女、兄弟、叔伯、姐妹）！</Text>
                     <Text style={ MainContent }>自稱是同事、同學、軍中弟兄！</Text>
