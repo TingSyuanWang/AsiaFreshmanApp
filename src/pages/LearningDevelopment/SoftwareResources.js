@@ -41,7 +41,6 @@ class SoftwareResources extends Component {
                     <Text style={ MainContentRed }>4.O365電子帳號依教務處公告之學生名單由資訊發展處統一建立。</Text>
                     <Text style={ MainContentRed }>5.如有使用上的問題，請洽資訊發展處聯合服務櫃檯（分機3515）。</Text>
                 </View>
-                <Divider style={ DividerLong } />
                 <Text style={ ItemTitleH1 }>軟體資源使用注意事項</Text>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH2 }>一、	線上使用</Text>
