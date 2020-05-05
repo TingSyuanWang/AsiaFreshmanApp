@@ -13,7 +13,12 @@ const list = [
         title: '諮商輔導 & 資源教室服務',
         icon: 'domain',
         page: 'ConsultService'
-    }
+    },
+    {
+        title: '愛滋防治宣導',
+        icon: 'local-hospital',
+        page: 'AIDS'
+    },
 ];
 
 class PhysicalHealth extends Component {

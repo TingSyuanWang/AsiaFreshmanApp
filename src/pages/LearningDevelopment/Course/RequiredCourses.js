@@ -21,7 +21,7 @@ class RequiredCourses extends Component {
                 <View style={ ViewSubContainerNoBorder }>
                     <Text style={ ItemTitleH1 }>1. 107學年度校定必修各類科目，請務必注意系上所給的課程規劃，並依規定選修。</Text>
                     <Text style={ ItemTitleH1 }>2. 通識博雅課程之修課規定如下：</Text>
-                    <Text style={ ItemTitleH2 }>大學日間部識博雅課程之修課規定</Text>
+                    <Text style={ ItemTitleH2 }>大學日間部</Text>
                     <Divider style={ DividerShort } />
                     <Text style={ MainContent }>1. 通識博雅課程分為4類：</Text>
                     <Text style={ MainContent }>{'\t'}(1) 人文類課程名稱會加上「-1」</Text>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, ScrollView, View } from 'react-native';
+import {Text, ScrollView, View, Linking} from 'react-native';
 import { Card, Button, Icon } from 'react-native-elements';
 import { NavigationActions } from 'react-navigation';
 import { customStyles } from '../../assets/customStyle';
@@ -28,7 +28,8 @@ class CampusSecurity extends Component {
                 <Text style={ ItemTitleH3 }>最新的訊息與可以幫助你的資料，都可以在軍訓室網頁中找到，我們24小時都會熱誠地為大家服務。</Text>
                 <Text style={ ItemTitleH3 }>軍訓室專線：(04)2332-1053</Text>
                 <Text style={ ItemTitleH3 }>校安中心專線：0919-555-445</Text>
-                <Text style={ ItemTitleH3 }>網址：亞洲大學首頁→行政服務→學生事務處→軍訓室</Text>
+                <Text style={ ItemTitleH3 }>網址：</Text>
+                <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='軍訓室' onPress={ ()=>{ Linking.openURL('http://dmte.asia.edu.tw/bin/home.php')}} />
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH2 }>安全小語</Text>
                     <Text style={ ItemTitleH3 }>◎上路有保障：騎機車戴安全帽與開車繫安全帶。</Text>

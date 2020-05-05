@@ -32,7 +32,7 @@ class Homepage extends Component {
                         image={require('../img/LearningDevelopment.jpeg')}
                         titleStyle={{fontSize: 20}}>
                         <Text style={{marginBottom: 10, lineHeight: 20}}>
-                            選課、學生請假、服務與學習、電子郵件 ＆ 軟體資源、圖書資源、學習暨生涯發展
+                            選課、學生請假、服務與學習、電子郵件 ＆ 軟體資源、圖書資源、生涯發展與就業輔導、學生實務學習與輔導
                         </Text>
                         <Button
                             rightIcon={{name: 'forward'}}
@@ -46,7 +46,7 @@ class Homepage extends Component {
                         image={require('../img/about-asia.jpg')}
                         titleStyle={{fontSize: 20}}>
                         <Text style={{marginBottom: 10, lineHeight: 20}}>
-                            兵役緩徵、校園安全、性別平等教育、校園法律宣導、學生申訴
+                            兵役緩徵、校園安全、性別平等教育、校園法律宣導、學生申訴、交通安全、公車路線
                         </Text>
                         <Button
                             rightIcon={{name: 'forward'}}
@@ -60,7 +60,7 @@ class Homepage extends Component {
                         image={require('../img/MentalHealth.jpg')}
                         titleStyle={{fontSize: 20}}>
                         <Text style={{marginBottom: 10, lineHeight: 20}}>
-                            健康檢查、諮商輔導 ＆ 資源教室服務
+                            健康檢查、諮商輔導 ＆ 資源教室服務、愛滋防治宣導
                         </Text>
                         <Button
                             rightIcon={{name: 'forward'}}
@@ -74,7 +74,7 @@ class Homepage extends Component {
                         image={require('../img/CampusLife.jpg')}
                         titleStyle={{fontSize: 20}}>
                         <Text style={{marginBottom: 10, lineHeight: 20}}>
-                            住宿、社團介紹、總務須知
+                            住宿、社團介紹、總務須知、校園導覽圖
                         </Text>
                         <Button
                             rightIcon={{name: 'forward'}}

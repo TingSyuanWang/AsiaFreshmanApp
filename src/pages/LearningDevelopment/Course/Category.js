@@ -18,7 +18,7 @@ class Category extends Component {
 
         return (
             <ScrollView style={ ViewContainer }>
-                <Text style={ MainContent }>{'\t'}本校大學部各系應修之課程請依各系課程規劃表修習，主要共分為六大類，分別為校定必修、以院為教學核心課程、系核心課程、系專業學程、他系專長學程（亦或跨領域學程）及系自由選修課程，應修足畢業學分128學分（請依各系課程規劃表）始可畢業。</Text>
+                <Text style={ MainContent }>{'\t'}本校大學部各系應修之課程請依各系課程規劃表修習，主要共分為六大類，分別為校定必修、以院為教學核心課程、系核心課程、系專業學程、他系專長學程(亦或跨領域學程)及系自由選修課程，應修足畢業學分128學分(請依各系課程規劃表)始可畢業。</Text>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH1 }>校定必修 (30學分)</Text>
                     <Divider style={ DividerShort } />

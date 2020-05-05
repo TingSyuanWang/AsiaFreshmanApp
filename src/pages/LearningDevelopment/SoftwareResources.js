@@ -24,7 +24,7 @@ class SoftwareResources extends Component {
                 <Text style={ ItemTitleH3 }>O365帳號、密碼原則及相關說明：</Text>
                 <View style={ ViewSubContainer }>
                     <Text style={ MainContent }>1.帳號：“您的學號” + @live.asia.edu.tw。</Text>
-                    <Text style={ MainContent }>2.密碼：預設密碼為您的西元出生年月日期共八碼（格式為YYYYMMDD，如19970610）。</Text>
+                    <Text style={ MainContent }>2.密碼：預設密碼為您的西元出生年月日期共八碼（格式為YYYYMMDD，如19990610）。</Text>
                     <Text style={ MainContent }>3.網路郵局：請點擊按鈕</Text>
                     <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='網路郵局' onPress={ ()=>{ Linking.openURL('http://mail.live.asia.edu.tw/')}} />
                     <Text style={ MainContent }>4.更改密碼：O365信箱密碼已與校園入口及學生資訊系統同步，如需更改密碼，可於登入校園入口系統後「變更密碼」功能逕行更改。</Text>
@@ -41,7 +41,6 @@ class SoftwareResources extends Component {
                     <Text style={ MainContentRed }>4.O365電子帳號依教務處公告之學生名單由資訊發展處統一建立。</Text>
                     <Text style={ MainContentRed }>5.如有使用上的問題，請洽資訊發展處聯合服務櫃檯（分機3515）。</Text>
                 </View>
-                <Divider style={ DividerLong } />
                 <Text style={ ItemTitleH1 }>軟體資源使用注意事項</Text>
                 <View style={ ViewSubContainer }>
                     <Text style={ ItemTitleH2 }>一、	線上使用</Text>
@@ -51,8 +50,8 @@ class SoftwareResources extends Component {
                     <Text style={ MainContent }>3.數位資源共享站使用說明：</Text>
                     <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='數位資源共享站使用說明' onPress={ ()=>{ Linking.openURL('http://wow.asia.edu.tw/category/swb/')}} />
                     <Text style={ ItemTitleH2 }>二、	下載使用</Text>
-                    <Text style={ MainContent }>1.學校已簽訂微軟、Adobe及相關教學軟體授權，同學在家中或宿舍可合法的安裝使用Windows、Office、Adobe、MATLAB、Dr. eye等多項軟體。只要由授權軟體服務網內選擇需要下載的軟體，輸入ANID（校園入口登入帳號）及密碼後即可進入下載。</Text>
-                    <Text style={ MainContent }>2.授權軟體服務網系統入口</Text>
+                    <Text style={ MainContent }>1.學校已簽訂微軟、Adobe及相關教學軟體授權，同學在家中或宿舍可合法的安裝使用Windows、Office、Adobe、SAS、MATLAB、Dr. eye等多項軟體。只要由授權軟體服務網內選擇需要下載的軟體，輸入ANID（校園入口登入帳號）及密碼後即可進入下載。</Text>
+                    <Text style={ MainContent }>2.授權軟體服務網系統入口：</Text>
                     <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='授權軟體服務網系統入口' onPress={ ()=>{ Linking.openURL('http://software.asia.edu.tw')}} />
                 </View>
             </ScrollView>

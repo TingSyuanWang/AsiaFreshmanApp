@@ -57,14 +57,14 @@ class Dormitory extends Component {
                     <Text style={ ItemTitleH2 }>聯絡方式</Text>
                     <Text style={ ItemTitleH3 }>學校總機：04-23323456</Text>
                     <Text style={ ItemTitleH3 }>書院與住宿服務組分機：3260-3261、3263、3278(書院)、3279(賃居)</Text>
-                    <Text style={ ItemTitleH3 }>感恩學苑 櫃檯分機：6524 專線電話:04-23399516</Text>
-                    <Text style={ ItemTitleH3 }>寢室分機：47+寢號後3碼 ex：1101房 寢室分機：47101</Text>
-                    <Text style={ ItemTitleH3 }>惜福學苑 櫃檯分機：6527 專線電話:04-23398261</Text>
-                    <Text style={ ItemTitleH3 }>寢室分機：4+寢號 ex：8101房　寢室分機：48101</Text>
-                    <Text style={ ItemTitleH3 }>築夢學苑 櫃檯分機：6528 專線電話:04-23397593</Text>
-                    <Text style={ ItemTitleH3 }>寢室分機：4+寢號 ex：9101房 寢室分機：49101</Text>
-                    <Text style={ ItemTitleH3 }>登峰學苑 櫃檯分機：6525 專線電話:04-23393167</Text>
-                    <Text style={ ItemTitleH3 }>寢室分機：4+寢號 ex：6101房 寢室分機：46101</Text>
+                    <Text style={ ItemTitleH3 }>感恩學苑 櫃檯分機：6524 專線電話：04-23399516</Text>
+                    <Text style={ ItemTitleH3 }>寢室分機：47+寢號後3碼 ex: 1101 房 寢室分機：47101</Text>
+                    <Text style={ ItemTitleH3 }>惜福學苑 櫃檯分機：6527 專線電話：04-23398261</Text>
+                    <Text style={ ItemTitleH3 }>寢室分機：4+寢號 ex: 8101 房 寢室分機：48101</Text>
+                    <Text style={ ItemTitleH3 }>築夢學苑 櫃檯分機：6528 專線電話：04-23397593</Text>
+                    <Text style={ ItemTitleH3 }>寢室分機：4+寢號 ex: 9101 房 寢室分機：49101</Text>
+                    <Text style={ ItemTitleH3 }>登峰學苑 櫃檯分機：6525 專線電話：04-23393167</Text>
+                    <Text style={ ItemTitleH3 }>寢室分機：4+寢號 ex: 6101 房 寢室分機：46101</Text>
                     <Button buttonStyle={{ marginTop: 10, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='書院與住宿服務組網站' onPress={ ()=>{ Linking.openURL('http://ds.asia.edu.tw/bin/home.php')}} />
                 </View>
             </ScrollView>

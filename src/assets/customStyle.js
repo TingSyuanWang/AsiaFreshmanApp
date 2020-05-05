@@ -12,6 +12,15 @@ export const customStyles = StyleSheet.create({
         paddingHorizontal: 10,
         marginBottom: 30
     },
+    ViewSubContainer2: {
+        borderColor: '#000',
+        borderWidth: 1,
+        paddingHorizontal: 10,
+    },
+    ViewSubContainer3: {
+        marginTop: 10,
+        marginBottom: 30,
+    },
     ViewSubContainerNoMargin: {
         borderColor: '#000',
         borderWidth: 1,
@@ -69,6 +78,22 @@ export const customStyles = StyleSheet.create({
         marginBottom: 6,
         lineHeight: 30
     },
+    ItemTitleH4: {
+        fontSize: 16,
+        marginTop: 4,
+        marginBottom: 4,
+        lineHeight: 30
+    },
+    ItemTitleH5: {
+        fontSize: 14,
+        marginTop: 2,
+        marginBottom: 2,
+        lineHeight: 30
+    },
+    ItemTitleH2Yellow:{
+        backgroundColor:'#FFFF33',
+        fontSize:20,
+    },
     ItemTitleH3Red: {
         fontSize: 18,
         marginTop: 6,
@@ -111,7 +136,71 @@ export const customStyles = StyleSheet.create({
         flex: 1,
         height: 50,
         maxWidth: 100
-},
+    },
+    ImageStyle5: {
+        width: 350,
+        height: 430
+    },
+    ImageStyle6: {
+        width: 356,
+        height: 200
+    },
+    ImageStyle7: {
+        width: 356,
+        height: 320
+    },
+    ImageStyle8: {
+        width: 356,
+        height: 320
+    },
+    ImageStyle9: {
+        width: 356,
+        height: 320
+    },
+    ImageStyle10: {
+        width: 335,
+        height: 200
+    },
+    ImageStyle11: {
+        width: 332,
+        height: 220
+    },
+    ImageStyle12: {
+        width: 332,
+        height: 220
+    },
+    ImageStyle13: {
+        width: 332,
+        height: 220
+    },
+    ImageStyle14: {
+        width: 332,
+        height: 220
+    },
+    ImageStyle15: {
+        width: 332,
+        height: 220
+    },
+    ImageStyle16: {
+        width: 332,
+        height: 220
+    },
+    ImageStyle17: {
+        width: 332,
+        height: 220
+    },
+    ImageStyle18: {
+        width: 332,
+        height: 220
+    },
+    ImageStyle19: {
+        width: 332,
+        height: 500
+    },
+    ImageStyle20: {
+        width: 332,
+        height: 220
+    },
     Signature: {
         flexDirection: 'row',
         justifyContent: 'flex-start',

@@ -18,6 +18,11 @@ const list = [
         title: '總務須知',
         icon: 'info',
         page: 'GeneralInformation'
+    },
+    {
+        title: '校園導覽圖',
+        icon: 'map',
+        page: 'CampusMap'
     }
 ];
 

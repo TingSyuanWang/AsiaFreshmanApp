@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Text, ScrollView, View } from 'react-native';
-import { Divider, Icon } from 'react-native-elements';
+import {Text, ScrollView, View, Linking} from 'react-native';
+import {Button, Divider, Icon} from 'react-native-elements';
 import { NavigationActions } from 'react-navigation';
 import { customStyles } from '../../../assets/customStyle';
 
@@ -27,11 +27,11 @@ class GeneralCourse extends Component {
                     <Text style={ ItemTitleH2 }>英文力</Text>
                     <Divider style={ DividerShort } />
                     <Text style={ MainContent }>1. 修畢英文類通識課程8學分且及格。</Text>
-                    <Text style={ MainContent }>2. 2.	非外文系學生：多益測驗(TOEIC)達500分（含）以上，或托福紙筆測驗(TOEFL ITP)達440分（含）以上，或網路托福測驗(TOEFL iBT)達42分（含）以上，或通過全民英語能力分級檢定測驗(GEPT)中級初試，或雅思(IELTS)達3.5（含）以上，或通過全球英檢測驗(GET) A2聽力閱讀測驗或口說寫作測驗，以上其中之一項。</Text>
+                    <Text style={ MainContent }>2. 非外文系學生：多益測驗(TOEIC)達500分（含）以上，或托福紙筆測驗(TOEFL ITP)達440分（含）以上，或網路托福測驗(TOEFL iBT)達42分（含）以上，或通過全民英語能力分級檢定測驗(GEPT)中級初試，或雅思(IELTS)達3.5（含）以上，或通過全球英檢測驗(GET) A2聽力閱讀測驗或口說寫作測驗，以上其中之一項。</Text>
                     <Text style={ ItemTitleH2 }>資訊力</Text>
                     <Divider style={ DividerShort } />
                     <Text style={ MainContent }>1. 修畢資訊、科技類通識課程2學分且及格。</Text>
-                    <Text style={ MainContent }>2. 通過本校資訊能力測驗。</Text>
+                    <Text style={ MainContent }>2. 通過本校資訊能力測驗。。</Text>
                     <Text style={ ItemTitleH2 }>健康力</Text>
                     <Divider style={ DividerShort } />
                     <Text style={ MainContent }>1. 修畢健康保健類通識課程2學分且及格。</Text>
@@ -52,8 +52,10 @@ class GeneralCourse extends Component {
                     <Text style={ MainContent }>2. 參加與卓越力相關之通識涵養教育活動至少2次。</Text>
                 </View>
                 <View style={ ViewSubContainer }>
-                    <Text style={ ItemTitleH1 }>（二）畢業前需參加「通識涵養教育」活動之總場次至少8次。</Text>
+                    <Text style={ ItemTitleH1 }>（二）畢業前需參加「通識涵養教育」活動之總場次至少8次，健康力、關懷力、創新力、卓越力之累積次數各2次。</Text>
                     <Text style={ ItemTitleH2 }>本校「書苑日」活動以及有通識認證的「通識講座」活動皆屬之。</Text>
+                    <Button buttonStyle={{ marginTop: 20, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='書苑日' onPress={ ()=>{ Linking.openURL('https://webs.asia.edu.tw/character/')}} />
+                    <Button buttonStyle={{ marginTop: 20, marginBottom: 10 }} icon={{name: 'account-balance'}} backgroundColor="#228B22" title='通識講座' onPress={ ()=>{ Linking.openURL('http://ged.asia.edu.tw/activites.htm')}} />
                 </View>
             </ScrollView>
         );

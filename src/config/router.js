@@ -19,22 +19,29 @@ import ServiceLearning from '../pages/LearningDevelopment/ServiceLearning';
 import SoftwareResources from '../pages/LearningDevelopment/SoftwareResources';
 import LibraryResources from '../pages/LearningDevelopment/LibraryResources';
 import CareerDevelopment from '../pages/LearningDevelopment/CareerDevelopment';
+import StudentPractice from '../pages/LearningDevelopment/StudentPractice';
 
 import FriendlyCampus from '../pages/MainItem/FriendlyCampus';
 import Military from '../pages/FriendlyCampus/Military';
 import CampusSecurity from '../pages/FriendlyCampus/CampusSecurity';
 import GenderEquality from '../pages/FriendlyCampus/GenderEquality';
+import TrafficSafety from '../pages/FriendlyCampus/TrafficSafety';
+import BusRoute from '../pages/FriendlyCampus/BusRoute';
 import CampusLaw from '../pages/FriendlyCampus/CampusLaw';
 import StudentsAppeals from '../pages/FriendlyCampus/StudentsAppeals';
 
 import PhysicalHealth from '../pages/MainItem/PhysicalHealth';
+import AIDS from '../pages/PhysicalHealth/AIDS';
 import Checkup from '../pages/PhysicalHealth/Checkup';
 import ConsultService from '../pages/PhysicalHealth/ConsultService';
 
 import CampusLife from '../pages/MainItem/CampusLife';
 import Dormitory from '../pages/CampusLife/Dormitory';
+import CampusMap from '../pages/CampusLife/CampusMap';
+
 import GroupIntroduction from '../pages/CampusLife/GroupIntroduction';
 import GeneralInformation from '../pages/CampusLife/GeneralInformation';
+
 
 import HappySchool from '../pages/MainItem/HappySchool';
 import BailoutCare from '../pages/HappySchool/BailoutCare';
@@ -59,17 +66,22 @@ export const Freshman = StackNavigator({
     SoftwareResources: { screen: SoftwareResources },
     LibraryResources: { screen: LibraryResources },
     CareerDevelopment: { screen: CareerDevelopment },
+    StudentPractice: { screen: StudentPractice },
     FriendlyCampus: { screen: FriendlyCampus },
     Military: { screen: Military },
     CampusSecurity: { screen: CampusSecurity},
+    BusRoute: { screen: BusRoute},
+    TrafficSafety: { screen: TrafficSafety},
     GenderEquality: { screen: GenderEquality},
     CampusLaw: { screen: CampusLaw},
     StudentsAppeals: { screen: StudentsAppeals},
     PhysicalHealth: { screen: PhysicalHealth},
     Checkup: { screen: Checkup},
+    AIDS: { screen: AIDS},
     ConsultService: { screen: ConsultService},
     CampusLife: { screen: CampusLife },
     Dormitory: { screen: Dormitory },
+    CampusMap: { screen: CampusMap },
     GroupIntroduction: { screen: GroupIntroduction },
     GeneralInformation: { screen: GeneralInformation },
     HappySchool: { screen: HappySchool },

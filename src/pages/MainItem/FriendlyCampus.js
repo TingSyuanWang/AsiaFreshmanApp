@@ -28,6 +28,16 @@ const list = [
         title: '學生申訴',
         icon: 'face',
         page: 'StudentsAppeals'
+    },
+    {
+        title: '交通安全',
+        icon: 'traffic',
+        page: 'TrafficSafety'
+    },
+    {
+        title: '公車路線',
+        icon: 'directions-bus',
+        page: 'BusRoute'
     }
 ];
 
